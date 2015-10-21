@@ -1,24 +1,107 @@
 /*CSS Stylesheet */
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
 
 body {
 /*background-color: #381f56;*/
-background-color: rgba(56,31,86,.35);
+background-color: rgba(56,31,86,.5);
 }
 
 a {
+color: rgba(56,31,86,.95);
+}
+
+.nav li  {
 color: rgba(255,250,255,.99);
+    
 }
 
 a:hover {
   color: rgba(56,31,86,.95);
 }
 
-h1 {
-font-size: 2.0em;
-  margin: 0.27em 0.27em;
-    text-align: center;
+li a:active { 
     color: rgba(56,31,86,.95);
 }
+
+
+h1 {
+font-size: 2.5em;
+  margin: 0.11em 0.11em;
+    text-align: center;
+    color: rgba(56,31,86,.95);
+    color:rgba(255,250,255,.99);
+    font-family: 'Playfair Display', serif;
+     float:left;
+        margin-left: 2%;
+   text-shadow: 1px 1px rgba(56,31,86,.95);
+    
+}
+
+h2{
+font-size: 1.4em;
+  margin: 0.71em 0.91em;
+    text-align: center;
+    color: rgba(255,250,255,.99);
+    font-family:  cursive;
+      text-shadow: 1px 1px rgba(56,31,86,.95);
+}
+
+h3 {
+font-size: 1.2em;
+/*  margin: 3.41em;*/
+    color: rgba(255,250,255,.99);
+    font-family: 'Playfair Display', serif;
+/*    display: inline;*/
+   position: relative;
+    bottom:20px;
+    padding-top: 23px;
+}
+
+h4{
+font-size: .9em;
+  margin: 2.99em 3.41em;
+    color: rgba(56,31,86,.95);
+    font-family: 'Playfair Display', serif;
+    display: inline;
+   position: relative;
+    bottom:20px;
+    padding-top: 3px;
+      
+}
+
+h5 {
+     display: none;
+
+}
+
+.call {
+display: inline;
+    position: absolute;
+    right: 2%;
+    top:1%;
+       background-color: rgba(56,31,86,.20);
+    padding: -20px;
+    padding-left: 0px;
+    margin-right: 2%;
+    border-radius: 100px;
+    display:none;
+}
+.call:hover {
+  background-color: rgba(255,250,255,.99);
+}
+
+.call2 {
+position: absolute;
+    top:0;
+    right:0;
+    display: inline;
+}
+
+.fa fa-phone-square fa-4x{
+padding-top: -20px;
+   
+}
+
 
 ul {
     list-style-type: none;
@@ -37,8 +120,8 @@ display: inline;
      padding-top: 4px;
     text-align: center;
     border: solid 1px rgba(56,31,86,.35);
-    color: rgba(255,250,255,.99);
-    background-color: rgba(56,31,86,.35);
+    background-color: rgba(56,31,86,.30);
+     font-family: 'Playfair Display', serif;
 }
 
 li:hover {
@@ -47,15 +130,17 @@ li:hover {
        border: solid 1px rgba(56,31,86,.40);
 }
 
-  .panel h3 {
-    font-size: 1.575em;
+  .panel2 h3 {
+    font-size: 1.9em;
     text-align: center;
       color: #381f56;
+/*      font-family: 'bad script', cursive;*/
+       font-family: 'Playfair Display', serif;
     }
 
-.panel {
-background-color: rgba(255,240,255,.95);
-   background-color: rgba(56,31,86,.20);
+.panel2 {
+/*   background-color: rgba(56,31,86,.25);*/
+         background-color: rgba(255,245,255,.90);
       border: solid 1px rgba(56,31,86,.35);
 }
 
@@ -66,62 +151,236 @@ padding-top: 1%;
    .centerp {
         text-align: center;
         margin-bottom: -.2%;
-        padding-top: 1.5%;
-        padding-bottom: 1.5%;
+        padding-top: .3%;
+        padding-bottom: .3%;
+   font-family: 'bad script', cursive;
+     font-size: 1.1em;
+       letter-spacing: 1.9px;
+       font-weight:600;
               
     }
 
- .panel .centerp1 {
+ .panel2 .centerp1 {
         text-align: center;
         margin-bottom: -.2%;
-        color: rgba(56,31,86,.85);
+     margin-top: -3%;
+        color: rgba(56,31,86,.95);
+    font-family: 'bad script', cursive;
+      font-size: 1.1em;
+       letter-spacing: 1.7px;
+       font-weight:700;
     }
 
+.about .centerp {
+    text-align: center;
+    font-size: 2.3em;
+        margin-bottom: -.2%;
+        color: rgba(56,31,86,.95);
+    font-family: 'bad script', cursive;
+      letter-spacing: 1.7px;
+       font-weight:700;
+}
+
+.centerp li {
+display: block;
+    background-color: rgba(0,0,0,0);
+     font-family: 'bad script', cursive;
+    padding-bottom: 10px;
+    font-size: 2.0em;
+    border: 1px solid rgba(0,0,0,0);        
+}
+
+
+.footer {
+/*
+   padding-left: 3%;
+    padding-right: 3%;
+*/
+    max-width: 1100px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+       margin-bottom:.5%;
+    }
 
 .footer li{
 display: inline;
     width: 100%;
+    margin-bottom: 1%;
     margin-left: 10px;
-    padding-left: 15px;
+     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 4px;
      padding-top: 4px;
     text-align: center;
     color: rgba(255,250,255,.99);
     background-color: none;   
+    font-family: 'Playfair Display', serif;
 }
 
 .footer li:hover {
   color: rgba(56,31,86,.95);
      background-color: rgba(255,250,255,.99);
        border: solid 1px rgba(56,31,86,.40);
+     
 }
 
 .copyw{
-text-align: center;
-    padding-bottom: 10px;
-     padding-top: 10px;
+    position: absolute;
+    text-align: center;
+    padding-bottom: 2px;
+     padding-top: 4px;
     left: 33%;
     right:33%;
-    margin-top: 3.5%;
+   
 }
 
 
 
+/**/
+
+.stepcarousel{
+    float: right;
+position: relative; /*leave this value alone*/
+border: 10px solid rgba(56,31,86,.70);
+overflow: scroll; /*leave this value alone*/
+width: 50%; /*Width of Carousel Viewer itself*/
+height: 880px; /*Height should enough to fit largest content's height*/
+    margin-top: 2%;
+    margin-bottom: 2%;
+/*    margin-right: 4%;*/
+/*    margin-bottom: 2%*/
+    max-width: 700px;
+   
+}
+
+.stepcarousel:hover{
+border: 10px solid rgba(56,31,86,.10);
+}
 
 
+.stepcarousel .belt{
+position: absolute; /*leave this value alone*/
+left: 0;
+top: 0;
+}
+
+.stepcarousel .panel{
+overflow: hidden; /*clip content that go outside dimensions of holding panel DIV*/
+
+width: 100%; /*Width of each panel holding each content. If removed, widths should be individually defined on each content DIV then. */
+    background-color: rgba(56,31,86,.00);
+        border: 1px solid rgba(56,31,86,.00);
+}
+
+#mygallery {
+background-color: rgba(255,245,255,.90);
+
+}
+
+#mygallery img {
+}
+
+#mygallery h2 {
+ font-size: 1.3em;
+    color: rgba(56,31,86,.95);
+       text-align: center; 
+     text-shadow: 1px 1px rgba(255,240,255,0);
+}
+
+.scroll {
+display: inline-block;
+    margin-top: 30px;
+    margin-left: 13%;
+    margin-bottom: -1%;
+    }
 
 
+#mygallery i {
+padding-left: 5px;
+    padding-right: 5px;
+}
 
-
-
+.about {
+display: inline;
+    float: left;
+    width: 45%;
+    margin-left: 2%;
+    margin-top: 2%;
+/*    border: 1px solid red;*/
+}
+/**/
 /*MEDIA QUERIES*/
 
-@media only screen and (max-width: 770px) {
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 825px) {
     
     body {
 background-color:rgba(255,240,255,.90);
 }
+    
+.about {
+width: 100%;
+}    
+    .call {
+display: inline;
+    position: absolute;
+    right: 2%;
+    top:1%;
+    background-color: rgba(56,31,86,.0);
+    padding: -20px;
+    padding-left: 0px;
+    margin-right: 2%;
+    border-radius: 100px;
+       
+}
+    
+    h1{
+    font-size: 2.3em;
+        float:left;
+        margin-left: 2%;
+        margin-bottom: -1.8%;
+           text-shadow: 1px 1px rgba(255,240,255,0);
+    }
+    
+    h5{
+       display: block;
+        text-align: center;
+        margin-top: 5%;
+/*        padding-top: 2.3%;*/
+   font-family: 'bad script', cursive;
+     font-size: 1.2em;
+       letter-spacing: 1.9px;
+       font-weight:500;
+        color:rgba(255,240,255,.90);
+    }
+    
+    .call:hover {
+    background-color: rgba(56,31,86,.0);
+    }
+    
+    .call2{
+    display:none;
+    }
+    
+
+    
+       
+   .call a {
+color:rgba(56,31,86,.85);    
+}
+    
+     .call a:hover {
+color:rgba(56,31,86,.5);    
+}
+    
+  
     ul{
     padding-top: 2%;
         padding-bottom: 2%
@@ -135,8 +394,16 @@ display: inline;
     padding-right: 10px;
     padding-bottom: 4px;
      padding-top: 4px;
+        font-weight: 500;
+        background-color: rgba(56,31,86,.5);
+/*        display: none;*/
 }
     
+       li:hover {
+  color: rgba(255,250,255,.99);
+    background-color: rgba(56,31,86,.5);
+       border: solid 1px rgba(56,31,86,.85);
+}
     .row {
     padding: -1%;
     }
@@ -149,29 +416,24 @@ display: inline;
         display: none;
     }
     
-       .panel {
+       .panel2 {
 background-color: rgba(56,31,86,.5);
 } 
     
-    .panel h3 {
-    display: none;
-        font-size: 1.575em;
+    .panel2 h3 {
+          font-size: 1.575em;
     text-align: center;
-      color: rgba(255,240,245,.94);
     }
-    
-    h1 {
-    color: rgba(56,31,86,.85);
-}
-    
-     .panel .centerp1 {
+      h1 {color: rgba(56,31,86,.95);
+      }
+        
+     .panel2 .centerp1 {
               color: rgba(255,250,255,.99);
          padding-bottom: 1%;
         
     }
     
-    
-    
+        
     .footer li {
         display: inline-block;
         margin: auto;
@@ -179,9 +441,52 @@ background-color: rgba(56,31,86,.5);
         margin-bottom: 10px;
         padding-top: 25px;
         padding-bottom: 25px;
+         font-size: 1.6em;
+         font-family: 'Playfair Display', serif;
+        background-color: rgba(56,31,86,.85);
         
     }
     
+      .footer li:hover {
+       background-color: rgba(56,31,86,.50);
+      }      
+    
+ 
+    
+    .stepcarousel{
+position: relative; /*leave this value alone*/
+border: 10px solid rgba(56,31,86,.50);
+overflow: scroll; /*leave this value alone*/
+width: 90%; /*Width of Carousel Viewer itself*/
+height: 580px; /*Height should enough to fit largest content's height*/
+    margin-top: 10%;
+        margin-bottom: 10%;
+/*    margin-bottom: 2%*/
+        
+   
+}
+
+.stepcarousel .belt{
+position: absolute; /*leave this value alone*/
+left: 0;
+top: 0;
+}
+
+.stepcarousel .panel{
+overflow: hidden; /*clip content that go outside dimensions of holding panel DIV*/
+margin: 10px; /*margin around each panel*/
+width: 100%; /*Width of each panel holding each content. If removed, widths should be individually defined on each content DIV then. */
+    background-color: rgba(56,31,86,.00);
+        border: 1px solid rgba(56,31,86,.00);
+}
+
+#mygallery {
+background-color:  rgba(255,245,255,.90);
+    max-height: 500px;
+}
+    
+ 
+
     .copyw{
 text-align: center;
     padding-bottom: 10px;
@@ -191,3 +496,40 @@ text-align: center;
 }
     
 }
+
+
+
+
+/*  Small Screen*/
+@media only screen and (max-width: 500px) {
+    .panel h3 {
+        display: none;  
+    }
+    
+    .panel2 .centerp1 {
+            color: rgba(255,250,255,.99)
+    }   
+    li {
+    
+    display: none;}
+    
+    h1 {
+    font-size: 1.9em;
+        float: left;
+        padding-left: 3%;
+        padding-top: 5%
+    }
+    
+    .call2{
+    display:none;
+    }
+    
+    #mygallery {
+max-height: 350px;
+}
+    
+     }
+
+
+
+

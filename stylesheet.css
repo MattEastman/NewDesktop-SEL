@@ -1,0 +1,64 @@
+/*CSS Stylesheet */
+
+body {
+height: 100%; 
+margin: 0; 
+background-color: red;
+}
+
+
+Title {
+background-color: red;
+}
+
+ul, ol {list-style: none;}
+.clearfix {clear: both;}
+
+
+#container {
+width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ccc;
+    min-height: 70px;
+    background-color: green;
+}
+
+
+nav ul li {
+min-width:60px;
+    border:1px solid black;
+    border-radius: 4px;
+    padding: 8px;
+/*    margin: 0 12px;*/
+}
+
+article {
+width:220px;
+    height:300px;
+    border: 1px solid black;
+background-color: #ccc;
+}
+
+#flexwrapper {
+display:flex;
+    justify-content: space-around;
+/*    flex-direction: row; */
+
+}
+
+nav ul {
+display:flex;
+    justify-content: center;
+    padding-left: 0;
+}
+
+nav ul > * {
+/*flex: 1 0 auto;*/
+    
+}
+
+A, TD A {
+color: white;
+}
+
