@@ -3,7 +3,15 @@
 
 body {
 /*background-color: #381f56;*/
-background-color: rgba(56,31,86,.5);
+/*background-color: rgba(56,31,86,.5);*/
+     background:url(/images/backg1.gif) center center fixed no-repeat;
+     background:url(/images/backg1.gif) center center fixed no-repeat;
+    background:url(/images/backg2.png) center center fixed no-repeat;
+    background:url(/images/backg3.png) center center fixed no-repeat;
+-moz-background-size: contain;
+background-size: contain;
+background-size: cover;
+background-size: cover;
 }
 
 a {
@@ -29,11 +37,11 @@ font-size: 2.5em;
   margin: 0.11em 0.11em;
     text-align: center;
     color: rgba(56,31,86,.95);
-    color:rgba(255,250,255,.99);
+/*    color:rgba(255,250,255,.99);*/
     font-family: 'Playfair Display', serif;
      float:left;
         margin-left: 2%;
-   text-shadow: 1px 1px rgba(56,31,86,.95);
+/*   text-shadow: 1px 1px rgba(56,31,86,.95);*/
     
 }
 
@@ -41,20 +49,21 @@ h2{
 font-size: 1.4em;
   margin: 0.71em 0.91em;
     text-align: center;
-    color: rgba(255,250,255,.99);
+    color: rgba(56,31,86,.95);
     font-family:  cursive;
-      text-shadow: 1px 1px rgba(56,31,86,.95);
+      text-shadow: 1px 1px rgba(56,31,86,0);
 }
 
 h3 {
 font-size: 1.2em;
 /*  margin: 3.41em;*/
-    color: rgba(255,250,255,.99);
+    color: rgba(56,31,86,.95);
     font-family: 'Playfair Display', serif;
 /*    display: inline;*/
    position: relative;
     bottom:20px;
     padding-top: 23px;
+    
 }
 
 h4{
@@ -95,7 +104,7 @@ position: absolute;
     top:0;
     right:0;
     display: inline;
-}
+   }
 
 .fa fa-phone-square fa-4x{
 padding-top: -20px;
@@ -140,7 +149,7 @@ li:hover {
 
 .panel2 {
 /*   background-color: rgba(56,31,86,.25);*/
-         background-color: rgba(255,245,255,.90);
+         background-color: rgba(255,245,255,.60);
       border: solid 1px rgba(56,31,86,.35);
 }
 
@@ -159,6 +168,18 @@ padding-top: 1%;
        font-weight:600;
               
     }
+
+.centerp3 li{
+display: block;
+    background-color: rgba(0,0,0,0);
+     font-family: 'bad script', cursive;
+    padding-bottom: 10px;
+    font-size: 2.0em;
+    margin-left: -1%;
+    border: 1px solid rgba(0,0,0,0); 
+     color: rgba(56,31,86,.95);
+     font-weight:700;
+}
 
  .panel2 .centerp1 {
         text-align: center;
@@ -242,9 +263,10 @@ display: inline;
     float: right;
 position: relative; /*leave this value alone*/
 border: 10px solid rgba(56,31,86,.70);
-overflow: scroll; /*leave this value alone*/
-width: 50%; /*Width of Carousel Viewer itself*/
-height: 880px; /*Height should enough to fit largest content's height*/
+overflow: scroll;
+    overflow-x: hidden;/*leave this value alone*/
+width: 54%; /*Width of Carousel Viewer itself*/
+height: 831px; /*Height should enough to fit largest content's height*/
     margin-top: 2%;
     margin-bottom: 2%;
 /*    margin-right: 4%;*/
@@ -290,10 +312,24 @@ background-color: rgba(255,245,255,.90);
 .scroll {
 display: inline-block;
     margin-top: 30px;
-    margin-left: 13%;
+    margin-left: 12%;
+    padding-right: 1%;
     margin-bottom: -1%;
+    position: relative;
+    bottom: 10px;
+       font-size: 1.3em;
+    color:rgba(56,31,86,.9);
+    text-shadow: 1px 1px rgba(255,240,255,0);
+    font-weight: 600;
+     background-color: rgba(255,245,255,.6);
+    
     }
 
+.scroll i {
+padding-left: 15px;
+    padding-right: 15px;
+    color: rgba(56,31,86,1);
+}
 
 #mygallery i {
 padding-left: 5px;
@@ -303,11 +339,20 @@ padding-left: 5px;
 .about {
 display: inline;
     float: left;
-    width: 45%;
-    margin-left: 2%;
+    width: 44%;
+    margin-left: 0%;
     margin-top: 2%;
+    background-color: rgba(255,245,255,.60);
+    padding-top: 1%;
+    padding-left: 1.1%;
 /*    border: 1px solid red;*/
 }
+
+.about h3 {
+text-indent: 25px;
+}
+
+
 /**/
 /*MEDIA QUERIES*/
 
@@ -369,7 +414,16 @@ display: inline;
     display:none;
     }
     
-
+.nav li {
+padding-left: 12px;
+    padding-right: 12px;
+    background-color: rgba(56,31,86,.4);
+}
+    
+    .nav {
+    margin-bottom: -1.6%;
+        margin-top: -.5%;
+    }
     
        
    .call a {
@@ -417,11 +471,11 @@ display: inline;
     }
     
        .panel2 {
-background-color: rgba(56,31,86,.5);
+background-color: rgba(56,31,86,.4);
 } 
     
     .panel2 h3 {
-          font-size: 1.575em;
+          font-size: 2.0em;
     text-align: center;
     }
       h1 {color: rgba(56,31,86,.95);
@@ -456,11 +510,14 @@ background-color: rgba(56,31,86,.5);
     .stepcarousel{
 position: relative; /*leave this value alone*/
 border: 10px solid rgba(56,31,86,.50);
-overflow: scroll; /*leave this value alone*/
-width: 90%; /*Width of Carousel Viewer itself*/
-height: 580px; /*Height should enough to fit largest content's height*/
-    margin-top: 10%;
-        margin-bottom: 10%;
+overflow: scroll;
+        overflow-x: hidden;/*leave this value alone*/
+width: 95%; /*Width of Carousel Viewer itself*/
+height: 600px; /*Height should enough to fit largest content's height*/
+    margin-top: 5%;
+        margin-bottom: 5%;
+        margin-right: 2.5%
+        
 /*    margin-bottom: 2%*/
         
    
@@ -469,6 +526,7 @@ height: 580px; /*Height should enough to fit largest content's height*/
 .stepcarousel .belt{
 position: absolute; /*leave this value alone*/
 left: 0;
+    right:15;
 top: 0;
 }
 
@@ -483,6 +541,7 @@ width: 100%; /*Width of each panel holding each content. If removed, widths shou
 #mygallery {
 background-color:  rgba(255,245,255,.90);
     max-height: 500px;
+   
 }
     
  
@@ -495,6 +554,53 @@ text-align: center;
     right:33%;
 }
     
+    .scroll {
+display: inline-block;
+    margin-top: 30px;
+    margin-left: 32%;
+/*         margin-right: 22%;*/
+    margin-bottom: -1%;
+    position: relative;
+    bottom: 0px;
+       font-size: 1.3em;
+    color:rgba(56,31,86,.9);
+    text-shadow: 1px 1px rgba(255,240,255,0);
+    font-weight: 600;
+     background-color: rgba(255,245,255,.6);
+    
+    }
+
+.scroll i {
+padding-left: 15px;
+    padding-right: 15px;
+    color: rgba(56,31,86,1);
+}
+    
+}
+
+
+
+@media only screen and (max-width: 780px) {
+.scroll {
+margin-left: 29%;
+}
+}
+
+
+@media only screen and (max-width: 740px) {
+.scroll {
+margin-left: 23%;
+}
+    
+    .panel2 h3 {display: none;}
+    
+    .panel2 .centerp1 {
+margin-top: .8%
+}
+    .hideabout{
+    display: none;
+    }
+
 }
 
 
@@ -526,6 +632,17 @@ text-align: center;
     
     #mygallery {
 max-height: 350px;
+}
+    
+        .scroll {
+display: none;
+    
+    }
+
+.scroll i {
+padding-left: 15px;
+    padding-right: 15px;
+    color: rgba(56,31,86,1);
 }
     
      }
