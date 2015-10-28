@@ -1,0 +1,18 @@
+@import url('reset.css');
+
+/* General Codrops Demo Style */
+
+
+p.sub{
+	padding:25px 10px 10px 10px;
+	text-align:left;
+	color:#aaa;
+}
+.clr{
+	clear:both;
+}
+
+
+.content{
+	margin:0px 25px 30px 25px;
+}
