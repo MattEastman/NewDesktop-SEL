@@ -289,16 +289,18 @@ h5 {
 }
 
 .bowh5 {
-       display: block;
+       display: inline-block;
         text-align: center;
         margin-top: 5%;
 /*        padding-top: 2.3%;*/
    font-family: 'bad script', cursive;
-     font-size: 1.2em;
+     font-size: 1.0em;
        letter-spacing: 1.9px;
        font-weight:500;
         color:rgba(56,31,86,.90);
     font-weight:600;
+    margin-left: 20%;
+    padding-bottom: 7px;
     }
 
 .call {
@@ -342,7 +344,22 @@ position: relative;
     color: rgba(56,31,86,.95);
      text-shadow: 2px 1px rgba(56,31,86,0);
     font-weight: 600;
+   
   }
+
+.email a h4 {
+position: relative;
+    left:25px;
+    color: rgba(56,31,86,.95);
+     text-shadow: 2px 1px rgba(56,31,86,0);
+    font-weight: 600;
+    z-index: 99;
+}
+
+.email a h4:hover {
+color: rgba(255,250,255,.99);
+}
+
 
 .fa fa-phone-square fa-4x{
 padding-top: -20px;
@@ -440,6 +457,27 @@ position: relative;
 color:rgba(56,31,86,.65);
 }
 
+.panel4a {
+position: relative;
+ right:20%;
+    display: inline;
+   }
+
+.panel4a i{
+       background-color: rgba(255,245,255,.50); 
+    padding-left: 3px;
+    padding-right: 3px;
+       border-radius: 10px;
+    -moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+   }
+
+.panel4a i:hover {
+color:rgba(56,31,86,.65);
+}
+
+
+
 .panel5 {
 position: relative;
   float:right;
@@ -461,6 +499,47 @@ position: relative;
 color:rgba(56,31,86,.65);
 }
 
+.panel6{
+/*background-color: rgba(255,245,255,.50); */
+    position: relative;
+    top:12px;
+    border-radius: 10px;
+/*
+    padding-left: 50%;;
+    padding-top: 3%;
+     padding-top: 2%;
+*/
+}
+
+.panel7{
+position: relative;
+    top:35px;
+    display: inline;
+ background-color: rgba(255,245,255,1); 
+}
+
+.panel7 .centerp2 {
+ text-align: center;
+               padding-top: .3%;
+        padding-bottom: .3%;
+   font-family: 'bad script', cursive;
+     font-size: 2.1em;
+       letter-spacing: 1.9px;
+       font-weight:600;
+    color:rgba(56,31,86,.95);
+    
+  
+}
+
+.panel7 h3 {
+color:rgba(56,31,86,.95);
+     background-color: rgba(255,245,255,.5); 
+    border-radius: 10px;
+    padding: 7px;
+    padding-left: 12px;
+     margin-bottom: 20px;
+ 
+}
 
 .row {
 padding-top: 1%;
@@ -505,7 +584,7 @@ display: block;
  .panel2 .centerp1 {
         text-align: center;
         margin-bottom: -.2%;
-     margin-top: -3%;
+     margin-top: -2.5%;
         color: rgba(56,31,86,.95);
     font-family: 'bad script', cursive;
       font-size: 1.1em;
@@ -534,6 +613,47 @@ display: block;
        letter-spacing: 1.7px;
        font-weight:700;
     }
+
+
+.about {
+display: inline;
+    float: left;
+    width: 44%;
+    margin-left: 0%;
+    margin-top: 2%;
+    background-color: rgba(255,245,255,.60);
+    padding-top: 1%;
+    padding-left: 1.1%;
+/*    border: 1px solid red;*/
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.about h3 {
+text-indent: 25px;
+}
+
+
+.abouta {
+display: inline;
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 1%;
+    background-color: rgba(255,245,255,.60);
+    padding-top: 1%;
+    padding-bottom: -2%;
+    padding-left: 1.1%;
+/*    border: 1px solid red;*/
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.abouta h3 {
+text-indent: 25px;
+}
 
 .about .centerp {
     text-align: center;
@@ -565,6 +685,27 @@ display: block;
       letter-spacing: 1.7px;
        font-weight:700;
 }
+.runner{
+display: inline-block;
+    float: right;
+    width: 49%;
+    margin-top: 4%;
+   
+}
+
+.runner .centerp2 {
+ text-align: center;
+    font-size: 1.1em;
+    padding-bottom: 5px;
+        margin-bottom: .2%;
+    margin-top: -3%;
+        color: rgba(56,31,86,.95);
+    font-family: 'bad script', cursive;
+      letter-spacing: 1.7px;
+       font-weight:700;
+        
+}
+
 
 .centerp li {
 display: block;
@@ -766,41 +907,6 @@ padding-left: 5px;
     padding-right: 5px;
 }
 
-.about {
-display: inline;
-    float: left;
-    width: 44%;
-    margin-left: 0%;
-    margin-top: 2%;
-    background-color: rgba(255,245,255,.60);
-    padding-top: 1%;
-    padding-left: 1.1%;
-/*    border: 1px solid red;*/
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-}
-
-.about h3 {
-text-indent: 25px;
-}
-
-
-.abouta {
-display: inline;
-    float: left;
-    width: 100%;
-    margin-left: 0%;
-    margin-top: 1%;
-    background-color: rgba(255,245,255,.60);
-    padding-top: 1%;
-    padding-bottom: -2%;
-    padding-left: 1.1%;
-/*    border: 1px solid red;*/
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-}
 
  .hotel {
 font-weight: 700;
@@ -817,9 +923,24 @@ position: relative;
      text-indent: 25px;
 }
 
-.abouta h3 {
-text-indent: 25px;
+.runner .hotel3{
+
+    float: right;
+/*    display: inline;*/
+    background-color: rgba(255,245,255,.6);
+    border-radius: 10px;
+     padding-left: 17px;
+      padding-right: 7px;
+    padding-bottom: 10px;
+       text-indent: 25px;
 }
+
+.hotel3 img{
+border-radius: 10px;
+   position: relative;
+    right: 5px;
+}
+
 
 a h4:hover {
    color: rgba(56,31,86,1);
@@ -830,6 +951,8 @@ a h4:hover {
 
 .bowimg img{
   border-radius: 10px;
+    width: 135px;
+    height: 200px;
 }
 
 .bowimg img:hover {
@@ -840,8 +963,14 @@ opacity: .75;
 }
 
 
+.picborder{
+border-radius: 10px;
+}
 
-
+.picborder1{
+border-radius: 10px;
+margin-left: 5%;    
+}
 
 
 
@@ -854,7 +983,16 @@ opacity: .75;
 /**/
 /*MEDIA QUERIES*/
 
-
+@media only screen and (max-width: 1023px) {
+.bowimg{
+margin-left: 10%;
+}
+    
+    .bowh5{
+  display: block;
+        margin-left: -50%;
+    }
+}
 
 
 
@@ -864,9 +1002,20 @@ opacity: .75;
 background-color:rgba(255,240,255,.90);
 }
     
+    .bowimg{
+    margin-left: 9%;
+    }
+    .bowh5{
+    margin-left: -35%;
+    }
+    
 .about {
 width: 100%;
-}    
+} 
+    .runner {
+    width: 100%;
+        padding-top: 15px;
+    }
 /*
     .call {
 display: inline;
@@ -920,6 +1069,8 @@ display: inline;
         display: inline;
          bottom:27px;
     }
+    
+  
     
     .panel4{
     position: relative;
@@ -1137,9 +1288,31 @@ padding-left: 15px;
 margin-left: 29%;
 }
     
+    .runner{
+    100%;
+        position: relative;
+        right:7%;
+    }
+    
+    .runner img {
+    position: relative;
+        left:1.5%;
+    }
+    
+     .bowimg{
+    margin-left: 5%;
+    }
+    .bowh5{
+    margin-left: -30%;
+    }
+    
     .hidefooter{
     display:none;
     }
+    
+    .panel7 h3 {
+font-size: 1em;
+    
 }
 
 
@@ -1148,10 +1321,37 @@ margin-left: 29%;
 margin-left: 23%;
 }
     
-/*    .panel2 h3 {display: none;}*/
+      .runner{
+    100%;
+        position: relative;
+        right:0%;
+    }
+    
+    .runner img {
+    position: relative;
+        left:-1%;
+    }
+    
+     .bowimg{
+    margin-left: 0%;
+    }
+    .bowh5{
+    margin-left: 0%;
+    }
+    
+     
+    .bowimg img{
+   margin-left: 21%;
+    
+    }
+    
+    .panel2 h3 {
+    font-size: 1.5em;
+    }
+    
     
     .panel2 .centerp1 {
-margin-top: .8%
+margin-top: -2.8%
 }
      .panel2a .centerp1 {
 margin-top: .8%
@@ -1169,6 +1369,8 @@ margin-top: .8%
      .call2 h4 {
     display:none;
     }
+    
+  
 .panel4 {
      min-width: 180px;
         position: relative;
@@ -1182,8 +1384,8 @@ margin-top: .8%
     }
     
 }
+   
 
-     
 
 
 
@@ -1198,9 +1400,22 @@ margin-top: .8%
    font-family: 'bad script', cursive;
      font-size: 1.7em;
        letter-spacing: 1.9px;
-       font-weight:600;
-              
+       font-weight:600;     
     }
+    
+     .bowimg{
+    margin-left: -10%;
+    }
+    .bowh5{
+    margin-left: 0%;
+    }
+    
+     
+.bowimg img{
+  border-radius: 10px;
+    width: 105px;
+    height: 160px;
+}
     
     .centerp1 {
 display: none;
@@ -1209,8 +1424,11 @@ display: none;
     display: none;
     }
     
-    .panel2 h3 { position: relative;
+    .panel2 h3 { 
+        position: relative;
         bottom:6px;
+    font-size: 1.1em;
+    
     }  
     .panel2 {
         margin-top: 9.5%;
@@ -1312,7 +1530,7 @@ display: none;
     
     
     h1 {
-    font-size: 1.3em;
+    font-size: 1.1em;
         float: left;
         padding-left: 3%;
         padding-top: 3
@@ -1321,6 +1539,8 @@ display: none;
     .call2{
     display:none;
     }
+    
+   
     
     
     #mygallery {
@@ -1428,7 +1648,6 @@ display: inline;
     border-radius: 100px;
         -moz-border-radius: 10px;
 	-webkit-border-radius: 10px;    
-}
     background-color: rgba(255,245,255,.80);
     border-radius: 100px;
     max-height: 60px;
@@ -1442,6 +1661,10 @@ display: inline;
         padding-right: 1.5%;
     font-size: 1.2em;
     }
+
+.panel6{
+margin-top: 5.5%;
+}
     
  
 }
