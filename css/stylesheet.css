@@ -958,7 +958,7 @@ a h4:hover {
 .bowimg img:hover {
 opacity: .75;
     border-radius: 10px;
-/*    border: 2px solid rgba(56,31,86,.7);*/
+    border: 1.5px solid rgba(56,31,86,.7);
     scale: 2.0;
 }
 
@@ -972,9 +972,46 @@ border-radius: 10px;
 margin-left: 5%;    
 }
 
+.panel8{
+padding-bottom: 3%;
+    background-color: rgba(255,240,255,.50);
+    border-radius: 10px;
+    padding-right: 2%;
+    margin-bottom: 1%;
+}
 
+.panel8 .centerp {
+font-size: 1.5em;
+    color: rgba(56,31,86,.95);
+    padding-top: 15px;
+    text-align: center;
+    
+}
 
+.panel9 table{
+margin-top: 3%;
+    background-color:rgba(255,240,255,.70);
+    border-radius:10px;
+    border: 0px;
+}
 
+.panel9 .centerp2{
+font-size: 1.4em;
+}
+
+.babyfooter2 ul {
+padding-bottom: 5%;
+}
+.babyfooter {
+   margin-top: 1%;
+}
+
+.babyfooter li{
+  display: block; min-width: 110px;
+     margin-top: 1%;
+    color: rgba(56,31,86,.7);
+    border-radius: 10px;
+}
 
 
 
@@ -1665,7 +1702,18 @@ display: inline;
 .panel6{
 margin-top: 5.5%;
 }
+   .babyfooter {
+   margin-top: 5%;
+}
     
+    .babyfooter li{
+  display: block; min-width: 110px;
+     margin-top: 1%;
+    color: rgba(56,31,86,.7);
+        background-color: rgba(56,31,86,.3);
+        border-radius: 10px;
+}
+
  
 }
 
