@@ -120,6 +120,12 @@ p.sub{
 	opacity:0.7;
 }
 
+iframe {
+border-radius: 10px;
+    -moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
 
 /* Elastislide Style */
 .es-carousel-wrapper{
@@ -428,6 +434,24 @@ li:hover {
 	-webkit-border-radius: 10px;
 }
 
+ .panel2b h3 {
+    font-size: 1.9em;
+    text-align: center;
+      color: #381f56;
+/*      font-family: 'bad script', cursive;*/
+       font-family: 'Playfair Display', serif;
+margin-bottom: -20px;
+    }
+
+.panel2b {
+/*   background-color: rgba(56,31,86,.25);*/
+         background-color: rgba(255,245,255,.60);
+      border: solid 1px rgba(56,31,86,.35);
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
 .panel3{
 display: none;
 }
@@ -603,6 +627,17 @@ display: block;
        font-weight:700;
     }
 
+.panel2b .centerp1a {
+        text-align: center;
+        margin-bottom: -.2%;
+     margin-top: -2%;
+        color: rgba(56,31,86,.95);
+    font-family: 'bad script', cursive;
+      font-size: 1.3em;
+       letter-spacing: 1.7px;
+       font-weight:700;
+    }
+
 .centerp1a {
         text-align: center;
         margin-bottom: -.2%;
@@ -620,7 +655,21 @@ display: inline;
     float: left;
     width: 44%;
     margin-left: 0%;
-    margin-top: 2%;
+    margin-top: 0%;
+    background-color: rgba(255,245,255,.60);
+    padding-top: 1%;
+    padding-left: 1.1%;
+/*    border: 1px solid red;*/
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.about2 {
+display: inline;
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 0%;
     background-color: rgba(255,245,255,.60);
     padding-top: 1%;
     padding-left: 1.1%;
@@ -634,6 +683,9 @@ display: inline;
 text-indent: 25px;
 }
 
+.about2 h3 {
+text-indent: 25px;
+}
 
 .abouta {
 display: inline;
@@ -653,7 +705,11 @@ display: inline;
 
 .abouta h3 {
 text-indent: 25px;
+    font-size: 1.3em;
+    padding-bottom: 19px;
+    text-align: left;
 }
+
 
 .about .centerp {
     text-align: center;
@@ -666,6 +722,16 @@ text-indent: 25px;
 }
 
 .about .centerp2 {
+    text-align: center;
+    font-size: 2.3em;
+        margin-bottom: -.2%;
+        color: rgba(56,31,86,.95);
+    font-family: 'bad script', cursive;
+      letter-spacing: 1.7px;
+       font-weight:700;
+}
+
+.about2 .centerp2 {
     text-align: center;
     font-size: 2.3em;
         margin-bottom: -.2%;
@@ -689,11 +755,35 @@ text-indent: 25px;
 display: inline-block;
     float: right;
     width: 49%;
-    margin-top: 4%;
+    margin-top: 2%;
+    margin-bottom: -4%
    
 }
 
 .runner .centerp2 {
+text-align: center;
+    font-size: 1.1em;
+    padding-bottom: 5px;
+        margin-bottom: .2%;
+    margin-top: -3%;
+        color: rgba(56,31,86,.95);
+    font-family: 'bad script', cursive;
+      letter-spacing: 1.7px;
+       font-weight:700;
+    position: relative;
+    bottom:20px;
+}
+
+.runner2{
+display: inline-block;
+    float:left;
+    width: 50%;
+    margin-top: 2%;
+    margin-bottom: -4%
+   
+}
+
+.runner2 .centerp2 {
  text-align: center;
     font-size: 1.1em;
     padding-bottom: 5px;
@@ -735,6 +825,7 @@ display: block;
     text-align: center;
     font-family: 'Playfair Display', serif;
        margin-bottom:.5%;
+    margin-left: -13%;
     }
 
 .footer li{
@@ -753,6 +844,7 @@ display: inline;
     border-radius: 10px;
       -moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
+
 }
 
 .footer li:hover {
@@ -809,6 +901,15 @@ display: inline;
    
 }
 
+.copyw2{
+    position: absolute;
+    text-align: center;
+    padding-bottom: 2px;
+     padding-top: 3.2%;
+    left: 33%;
+    right:33%;
+   
+}
 
 
 /**/
@@ -820,7 +921,7 @@ border: 10px solid rgba(56,31,86,.70);
 overflow: scroll;
     overflow-x: hidden;/*leave this value alone*/
 width: 54%; /*Width of Carousel Viewer itself*/
-height: 831px; /*Height should enough to fit largest content's height*/
+height: 861px; /*Height should enough to fit largest content's height*/
     margin-top: 2%;
     margin-bottom: 2%;
 /*    margin-right: 4%;*/
@@ -860,7 +961,18 @@ background-color: rgba(255,245,255,.90);
     border-radius: 10px;
     -moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
+    position: relative;
+    bottom:20px;
+}
 
+#mygallery2 {
+background-color: rgba(255,245,255,.90);
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+    width: 100%;
+    height: 535px;
+    margin-top: 10px;
 }
 
 #mygallery img {
@@ -880,12 +992,11 @@ background-color: rgba(255,245,255,.90);
 
 .scroll {
 display: inline-block;
-    margin-top: 30px;
-    margin-left: 12%;
+    margin-left: 22%;
     padding-right: 1%;
-    margin-bottom: -1%;
     position: relative;
-    bottom: 10px;
+    top:1px;
+    bottom: 1px;
        font-size: 1.3em;
     color:rgba(56,31,86,.9);
     text-shadow: 1px 1px rgba(255,240,255,0);
@@ -924,21 +1035,45 @@ position: relative;
 }
 
 .runner .hotel3{
-
+display: inline;
     float: right;
 /*    display: inline;*/
-    background-color: rgba(255,245,255,.6);
+/*    background-color: rgba(255,245,255,.3);*/
     border-radius: 10px;
      padding-left: 17px;
-      padding-right: 7px;
     padding-bottom: 10px;
+/*      padding-right: 17px;*/
        text-indent: 25px;
+    position: relative;
+    bottom: 30px;
+    left: 5px;
 }
 
 .hotel3 img{
 border-radius: 10px;
    position: relative;
     right: 5px;
+    bottom: 10px;
+    max-height: 300px;
+}
+
+.runner2 .hotel4{
+display: inline;
+    float: right;
+/*    display: inline;*/
+/*    background-color: rgba(255,245,255,.3);*/
+    border-radius: 10px;
+     padding-left: 10px;
+      padding-right: 10px;
+       text-indent: 25px;
+    position: relative;
+    bottom: 50px;
+}
+
+.hotel4 img{
+border-radius: 10px;
+   position: relative;
+    right: 25px;
 }
 
 
@@ -1014,6 +1149,167 @@ padding-bottom: 5%;
 }
 
 
+.panel2b .row {
+padding-left: 10px;
+    padding-right: 10px;
+}
+
+.hideslider {
+display: none;
+}
+
+#jumpMenu {
+position: relative;
+top:8px;
+    background-color: rgba(56,31,86,.3);
+}
+#jumpMenu:hover {
+    background-color: rgba(56,31,86,.6);
+}
+
+.GuideHeader{
+
+font-size: 2.2em;
+  margin: 0.11em 0.11em;
+    text-align: center;
+    color:rgba(56,31,86,.9);
+    font-family: 'Playfair Display', serif;
+        margin-left: 1%;
+    margin-bottom: -10px;
+}
+
+#socialfoot{
+float: right;
+position: absolute;
+    bottom: 0;
+    right:-65px;
+}
+
+
+
+.nobowslide {
+padding-bottom: 12px;
+}
+
+
+/*Contact Form*/
+
+
+
+
+/* Labels are titles for the text fields. You can use a placeholder instead if you like*/
+label 
+{
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+     border-radius: 10px;
+    -moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+
+/* Centres the form within the page */
+form 
+{
+    margin:0 auto;
+    width:100%;
+    background-color:rgba(56,31,86,.5);
+    padding: 25px;
+    padding-bottom:0px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    -moz-border-radius:10px;
+	-webkit-border-radius:10px;
+    float: left;
+}
+
+/* Styles the text boxes */
+input, textarea, file {
+	width: 100%;
+	height:27px;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border:1px solid rgba(56,31,86,.7);
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+    background-color:rgba(255,240,255,.9);
+    
+}
+
+	input:focus, textarea:focus {
+	}
+
+/* Styles the text area boxes (message field) */	
+textarea 
+{
+	height:213px;
+}
+
+
+/* Styles the submit button */
+#submit {
+	/* background:url(images/submit.png); */
+	width:49%;;
+	height:48px;
+	text-align: center;
+	/* text-indent:-9999px; */
+	border:none;
+	margin-top:10px;
+	cursor:pointer;
+      border-radius: 10px;
+    -moz-border-radius:10px;
+	-webkit-border-radius:10px;
+    background-color: rgba(56,31,86,.8);
+    color: rgba(255,240,255,.6);
+    border: 1px solid rgba(255,240,255,.6);
+    float: left;
+}
+
+/* Styles the submit hover */	
+#submit:hover {
+	opacity:0.7;
+    background-color: rgba(255,240,255,.7);
+    border: 1px solid rgba(56,31,86,.8);
+    color: rgba(56,31,86,.8);
+}
+
+/* Styles the cancel button*/	
+#cancel {
+	/* background:url(images/cancel.png); */
+	width:49%;
+	height:48px;
+	text-align: center;
+	/* text-indent:-9999px; */
+	margin-top:10px;
+	cursor:pointer;
+  float:right;
+    border: 1px solid rgba(255,240,255,.6);
+     border-radius: 10px;
+    -moz-border-radius:10px;
+	-webkit-border-radius:10px;
+   background-color: rgba(56,31,86,.8);
+    color: rgba(255,240,255,.6);
+}
+
+/* Styles the cancel hover */
+#cancel:hover {
+	opacity:0.9;
+     background-color: rgba(255,240,255,.7);
+    border: 1px solid rgba(56,31,86,.8);
+    color: rgba(56,31,86,.8);
+}
+
+.submit{
+position: relative;
+    left: 100px;
+}
+
+.panel6 .centerp {
+    font-size: 1.7em;
+    color: rgba(255,240,255,.9);
+}
 
 
 
@@ -1039,6 +1335,10 @@ margin-left: 10%;
 background-color:rgba(255,240,255,.90);
 }
     
+    .panel2b #hideabout {
+    display: none;
+    }
+    
     .bowimg{
     margin-left: 9%;
     }
@@ -1049,8 +1349,8 @@ background-color:rgba(255,240,255,.90);
 .about {
 width: 100%;
 } 
-    .runner {
-    width: 100%;
+    .runner, .runner2{
+/*    width: 100%;*/
         padding-top: 15px;
     }
 /*
@@ -1209,6 +1509,23 @@ background-color: rgba(255,250,255,.6);
          padding-bottom: 1%;
     }
     
+       .panel2b {
+background-color: rgba(255,250,255,.6);
+} 
+    
+    .panel2b h3 {
+          font-size: 2.0em;
+    text-align: center;
+    }
+       
+      h1 {color: rgba(56,31,86,.95);
+      }
+        
+     .panel2b .centerp1 {
+              color: rgba(56,31,86,.95);
+         padding-bottom: 1%;
+    }
+    
   
     .footer li {
         display: inline-block;
@@ -1294,6 +1611,15 @@ text-align: center;
     right:33%;
 }
     
+        .copyw2{
+text-align: center;
+    padding-bottom: 10px;
+     padding-top: 10px;
+    left: 33%;
+    right:33%;
+}
+   
+    
     .scroll {
 display: inline-block;
     margin-top: 30px;
@@ -1316,6 +1642,13 @@ padding-left: 15px;
     color: rgba(56,31,86,1);
 }
     
+    #socialfoot{
+display: none;
+}
+.footer {
+       margin-left: 0%;
+    }
+    
 }
 
 
@@ -1328,14 +1661,22 @@ margin-left: 29%;
     .runner{
     100%;
         position: relative;
-        right:7%;
+       float:none;
+        width: 100%;
+        padding-right: 60px;
+        
     }
     
-    .runner img {
-    position: relative;
-        left:1.5%;
+    .runner img{
+    width: 100%;
+        position: relative;
+        padding-bottom: 20px;
     }
     
+    .runner2 {
+    width: 100%;
+    }
+        
      .bowimg{
     margin-left: 5%;
     }
@@ -1351,7 +1692,11 @@ margin-left: 29%;
 font-size: 1em;
     
 }
-
+            .copyw2{
+display: none;
+}
+    
+}
 
 @media only screen and (max-width: 740px) {
 .scroll {
@@ -1391,6 +1736,10 @@ margin-left: 23%;
 margin-top: -2.8%
 }
      .panel2a .centerp1 {
+margin-top: .8%
+}
+    
+    .panel2b .centerp1 {
 margin-top: .8%
 }
     
@@ -1489,6 +1838,21 @@ display: none;
             color: rgba(56,31,86,1);
     }
     
+      .panel2b h3 { position: relative;
+          font-size: 1.4em
+        
+       
+    }
+  
+    .panel2b {
+        margin-top: 9.5%;
+        background-color: rgba(255,250,255,.80);
+    }
+    
+    .panel2b .centerp1 {
+            color: rgba(56,31,86,1);
+    }
+    
     li {
     
     display: none;}
@@ -1564,8 +1928,6 @@ display: none;
     
     
     
-    
-    
     h1 {
     font-size: 1.1em;
         float: left;
@@ -1582,6 +1944,8 @@ display: none;
     
     #mygallery {
 max-height: 350px;
+        position: relative;
+        top:10px;
 }
     
         .scroll {
@@ -1658,7 +2022,11 @@ display: none;
     font-size: 1.5em;
     }
     
-.about {
+.about2 {
+    background-color: rgba(255,245,255,.80);
+    margin-top: 10%;
+}
+    .about {
     background-color: rgba(255,245,255,.80);
     margin-top: 10%;
 }
@@ -1713,7 +2081,50 @@ margin-top: 5.5%;
         background-color: rgba(56,31,86,.3);
         border-radius: 10px;
 }
+    
+     .runner img{
+    width: 100%;
+        position: relative;
+        padding-bottom: 0px;
+    }
 
+     .runner{
+        width: 100%;
+        padding-right: 20px;
+        
+    }
+    
+    .panel2a .row {
+    position: relative;
+        left:3%;
+    }
+    
+    .panel2b .row {
+padding-left: 10px;
+    padding-right: 10px;
+}
+
+    .hideslider {
+display: block;
+}
+    .showslider {
+    display: none;
+    }
+        .copyw2{
+display: none;
+}
+    
+    form 
+{
+    margin:0 auto;
+    width:100%;
+    background-color:rgba(56,31,86,.5);
+    padding: 25px;
+    border-radius: 10px;
+    -moz-border-radius:10px;
+	-webkit-border-radius:10px;
+    float: left;
+}
  
 }
 
