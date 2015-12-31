@@ -963,7 +963,7 @@ a h4:hover {
       background-repeat: no-repeat;
 }
 #hiddenDR:hover{
- background-image: url(/images/Dusty_Rose_Organza_Bow_Black.png);
+ background-image: url(/images/Dusty_Rose_Black.png);
       background-repeat: no-repeat;
 }
 #hiddenHP:hover{
@@ -1051,7 +1051,7 @@ background-image: url(/images/Black_Organza_Bow_Black.png);
       background-repeat: no-repeat;  
 }
 #hiddenBW:hover{
-background-image: url(/images/White_Chair_Cover.png);
+background-image: url(/images/Black_Chair_Cover.png);
       background-repeat: no-repeat;  
 }
 #hiddenBB:hover{
@@ -1069,7 +1069,7 @@ background-image: url(/images/Wine_Burgundy_Organza_Bow_Black.png);
 /*Bow Color Page Black/White Hover Done */
 /* Bow color Background starts*/
 #eggBack{
-background:url(/images/Egg_Back2.png) center center fixed no-repeat;
+background:url(/images/Egg_Back\.png) center center fixed no-repeat;
       -moz-background-size: contain;
     background-size: contain;
     background-size: cover;
@@ -1077,7 +1077,7 @@ background:url(/images/Egg_Back2.png) center center fixed no-repeat;
 }
 
 #o{
-background:url(/images/Orange_Organza_Bow_06.gif) center center fixed no-repeat;
+background:url(/images/OrangeBack.jpg) center center fixed no-repeat;
       -moz-background-size: contain;
     background-size: contain;
     background-size: cover;
@@ -1090,6 +1090,197 @@ background:url(/images/Lav_Back.png) center center fixed no-repeat;
     background-size: cover;
     background-size: cover;
 }
+#peachBack{
+background:url(/images/Peach_back.gif) center center fixed no-repeat;
+      -moz-background-size: contain;
+    background-size: contain;
+    background-size: cover;
+    background-size: cover;
+}
+#RosePinkBack{
+background:url(/images/Rose_Pink_back.gif) center center fixed no-repeat;
+      -moz-background-size: contain;
+    background-size: contain;
+    background-size: cover;
+    background-size: cover;
+}
+#HotPink_Back{
+background:url(/images/Hot_Pink_Back.png) center center fixed no-repeat;
+      -moz-background-size: contain;
+    background-size: contain;
+    background-size: cover;
+    background-size: cover;
+}
+#RasberryBack{
+background:url(/images/Rasberry_Back.jpg) center center fixed no-repeat;
+      -moz-background-size: contain;
+    background-size: contain;
+    background-size: cover;
+    background-size: cover;
+}
+#RedBack{
+background:url(/images/RedBack.jpg) center center fixed no-repeat;
+      -moz-background-size: contain;
+    background-size: contain;
+    background-size: cover;
+    background-size: cover;
+}
+#CandyRed{
+background:url(/images/CandyBack.jpg) center center fixed no-repeat;
+      -moz-background-size: contain;
+    background-size: contain;
+    background-size: cover;
+    background-size: cover;
+}
+#BurBack{
+background:url(/images/BurgundyBack.jpg) center center fixed no-repeat;
+      -moz-background-size: contain;
+    background-size: contain;
+    background-size: cover;
+    background-size: cover;
+}
+#WineBack{
+background:url(/images/WineBack.jpg) center center fixed no-repeat;
+      -moz-background-size: contain;
+    background-size: contain;
+    background-size: cover;
+    background-size: cover;
+}
+#CopperBack{
+background:url(/images/CopperBck.jpg) center center fixed no-repeat;
+      -moz-background-size: contain;
+    background-size: contain;
+    background-size: cover;
+    background-size: cover;
+}
+#Cback{
+background:url(/images/Cback.jpg) center center fixed no-repeat;
+      -moz-background-size: contain;
+    background-size: contain;
+    background-size: cover;
+    background-size: cover;
+}
+#SageBack{
+background:url(/images/SageBack.jpg) center center fixed no-repeat;
+      -moz-background-size: contain;
+    background-size: contain;
+    background-size: cover;
+    background-size: cover;
+}
+#TiffBack{
+background:url(/images/TiffBack.jpg) center center fixed no-repeat;
+      -moz-background-size: contain;
+    background-size: contain;
+    background-size: cover;
+    background-size: cover;
+}
+#SkyBack{
+background:url(/images/SkyBack.jpg) center center fixed no-repeat;
+      -moz-background-size: contain;
+    background-size: contain;
+    background-size: cover;
+    background-size: cover;
+}
+#RoyalBack{
+background:url(/images/RoyalBack.jpg) center center fixed no-repeat;
+      -moz-background-size: contain;
+    background-size: contain;
+    background-size: cover;
+    background-size: cover;
+}
+#TurBack{
+background:url(/images/TurBack.jpg) center center fixed no-repeat;
+      -moz-background-size: contain;
+    background-size: contain;
+    background-size: cover;
+    background-size: cover;
+}
+#NavyBack{
+background:url(/images/NavyBack.jpg) center center fixed no-repeat;
+      -moz-background-size: contain;
+    background-size: contain;
+    background-size: cover;
+    background-size: cover;
+}
+#YellowBack{
+background:url(/images/YellowBack.jpg) center center fixed no-repeat;
+      -moz-background-size: contain;
+    background-size: contain;
+    background-size: cover;
+    background-size: cover;
+}
+#YGBack{
+background:url(/images/YGBack.jpg) center center fixed no-repeat;
+      -moz-background-size: contain;
+    background-size: contain;
+    background-size: cover;
+    background-size: cover;
+}
+#SBack{
+background:url(/images/SBack.jpg) center center fixed no-repeat;
+      -moz-background-size: contain;
+    background-size: contain;
+    background-size: cover;
+    background-size: cover;
+}
+#IBack{
+background:url(/images/WBack.jpg) center center fixed no-repeat;
+      -moz-background-size: contain;
+    background-size: contain;
+    background-size: cover;
+    background-size: cover;
+}
+#WBack{
+background:url(/images/IBack.jpg) center center fixed no-repeat;
+      -moz-background-size: contain;
+    background-size: contain;
+    background-size: cover;
+    background-size: cover;
+}
+#BBack{
+background:url(/images/BlackBack.jpg) center center fixed no-repeat;
+      -moz-background-size: contain;
+    background-size: contain;
+    background-size: cover;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1122,7 +1313,7 @@ background:url(/images/Lav_Back.png) center center fixed no-repeat;
 #bowVid iframe{
 margin-left: 5%;
     width: 90%;
-    height: 500px;
+    height:491px;
 }
 
 .picborder{
@@ -1329,11 +1520,29 @@ background-color: rgba(255,240,255,.9);
 #fill2{
   background-color:  rgba(56,31,86,.9);
 }
+#fill2:hover{
+ color: rgba(255,240,255,.9);
+    background-color:  rgba(56,31,86,.7);
+}
 #fill3{
 background-color: rgba(255,240,255,.9);
 padding-bottom: 5px;
     border-radius: 10px;
     width: 90%;
+}
+#fill4{
+background-color: rgba(255,240,255,.8);
+padding-bottom: 5px;
+    border-radius: 10px;
+    width: 90%;
+    color: rgba(56,31,86,1);
+}
+#fill4:hover{
+background-color:rgba(56,31,86,.5);
+    color: rgba(255,240,255,.9);
+}
+#light{
+color: rgba(255,240,255,.9);
 }
 #dark{
 color: rgba(56,31,86,1);
@@ -1661,7 +1870,7 @@ left:2%;
 }
 @media only screen and (max-width: 780px) {
 
-#o, #eggBack, #lavBack{
+#o, #eggBack, #lavBack, #peachBack, #RosePinkBack, #HotPink_Back, #RasberryBack, #RedBack,#CandyRed,#BurBack, #WineBack, #CopperBack, #Cback, #TiffBack, #SageBack, #SkyBack, #RoyalBack, #TurBack, #NavyBack, #YellowBack, #YGBack, #SBack, #IBack,#WBack, #BBack{
     background:url(/images/backg3.png) center center fixed no-repeat;
     -moz-background-size: contain;
     background-size: contain;
@@ -1674,10 +1883,9 @@ left:2%;
     
     
     
+
     
-    
-    
-    
+
     
     
     
