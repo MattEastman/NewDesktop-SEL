@@ -1,5 +1,5 @@
 /*CSS Stylesheet */
-
+/*
 body {
 height: 100%; 
 margin: 0; 
@@ -30,7 +30,6 @@ min-width:60px;
     border:1px solid black;
     border-radius: 4px;
     padding: 8px;
-/*    margin: 0 12px;*/
 }
 
 article {
@@ -43,7 +42,7 @@ background-color: #ccc;
 #flexwrapper {
 display:flex;
     justify-content: space-around;
-/*    flex-direction: row; */
+
 
 }
 
@@ -54,7 +53,7 @@ display:flex;
 }
 
 nav ul > * {
-/*flex: 1 0 auto;*/
+
     
 }
 
@@ -62,3 +61,4 @@ A, TD A {
 color: white;
 }
 
+*/
