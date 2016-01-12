@@ -464,10 +464,11 @@ color:rgba(56,31,86,.65);
 }
 .panel6{
     position: relative;
-    top:12px;
+/*    top:12px;*/
     border-radius: 10px;
      -moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
+   
 }
 .panel7{
     position: relative;
@@ -508,6 +509,19 @@ color:rgba(56,31,86,.65);
     letter-spacing: 1.9px;
     font-weight:600;
 }
+
+.centerRev {
+    text-align: center;
+    margin-bottom: -.2%;
+    padding-top: .3%;
+    padding-bottom: .3%;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8em;
+    letter-spacing: 1.9px;
+    font-weight:600;
+    color: rgba(56,31,86,.95);
+}
+
  .centerp2 {
     text-align: center;
     margin-bottom: -.2%;
@@ -571,7 +585,11 @@ color:rgba(56,31,86,.65);
     font-weight:700;
 }
 .reviews {
-    padding-top: 20px;
+    padding-top: 60px;
+     padding-bottom: 50px;
+    float: right;
+    margin-right: 20px;
+    width: 50%;
 }
 #rev {
     margin-bottom: -20px;
@@ -589,7 +607,6 @@ color:rgba(56,31,86,.65);
     display: inline;
     float: left;
     padding-bottom: 5px;
-    
     margin-left: 0%;
     margin-top: 0%;
     background-color: rgba(255,245,255,.60);
@@ -598,13 +615,15 @@ color:rgba(56,31,86,.65);
     border-radius: 10px;
     -moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
+    position: relative;
+    bottom: 12px;
 }
 .about2 {
     display: inline;
     float: left;
     width: 100%;
     margin-left: 0%;
-    margin-top: 0%;
+    margin-top: -14px;
     background-color: rgba(255,245,255,.60);
     padding-top: 1%;
     padding-left: 1.1%;
@@ -818,6 +837,19 @@ color:rgba(56,31,86,.65);
     margin-bottom: 2%;
     max-width: 700px;
 }
+.stepcarousel2{
+    float: right;
+    position: relative; /*leave this value alone*/
+    border: 10px solid rgba(56,31,86,.70);
+    overflow: scroll;
+    overflow-x: hidden;/*leave this value alone*/
+    width: 54%; /*Width of Carousel Viewer itself*/
+    height: 861px; /*Height should enough to fit largest content's height*/
+    margin-top: 2%;
+    margin-bottom: 2%;
+/*    max-width: 700px;*/
+}
+
 .stepcarousel:hover{
     border: 10px solid rgba(56,31,86,.10);
 }
@@ -854,6 +886,7 @@ color:rgba(56,31,86,.65);
     width: 100%;
     height: 535px;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 #mygallery img {
     border-radius: 10px;
@@ -1284,43 +1317,6 @@ background:url(/images/GoldBack.jpg) center center fixed no-repeat;
     background-size: cover;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #bowVid iframe{
 margin-left: 1.4%;
     height:491px;
@@ -1365,7 +1361,7 @@ margin-left: 1.4%;
 }
 .panel9 {
 position: relative;
-    bottom:20px;
+    bottom:32px;
 }
 .panel9 .centerp2{
     font-size: 2.3em;
@@ -1400,7 +1396,7 @@ padding-top: 10px;
 }
 #jumpMenu {
     position: relative;
-    top:8px;
+    top:22px;
     background-color: rgba(56,31,86,.3);
     border-radius: 10px;
      -moz-border-radius: 10px;
@@ -1445,33 +1441,57 @@ label {
 	-webkit-border-radius:10px;
 }
 /* Centres the form within the page */
-form 
-{
+form {
     margin:0 auto;
     width:100%;
     padding: 25px;
-    padding-bottom:0px;
-    margin-bottom: 30px;
+    padding-bottom:17px;
+    margin-bottom: 20px;
     border-radius: 10px;
     -moz-border-radius:10px;
 	-webkit-border-radius:10px;
     float: left;
+     background-color: rgba(255,245,255,1); 
+}
+#form2 {
+    margin:0 auto;
+    width:100%;
+    padding: 25px;
+    padding-bottom:17px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    -moz-border-radius:10px;
+	-webkit-border-radius:10px;
+    float: left;
+     background-color: rgba(255,245,255,0); 
+}
+#name1, #email1{
+ border-radius: 10px;
+    -moz-border-radius:10px;
+	-webkit-border-radius:10px;
+    height:30px;
+}
+#name1:hover, #email1:hover{
+     border:1px solid rgba(56,31,86,.95);
 }
 /* Styles the text boxes */
 input, textarea, file {
 	width: 100%;
-	height:27px;
+	 height:30px;
 	border-radius:10px;
 	-moz-border-radius:10px;
 	-webkit-border-radius:10px;
-	border:1px solid rgba(56,31,86,.7);
+	border:1px solid rgba(56,31,86,.3);
 	padding:10px;
 	margin-top:3px;
 	font-size:0.9em;
-    background-color:rgba(255,240,255,.9);   
+/*    background-color:rgba(56,31,86,.05);*/
 }
-	input:focus, textarea:focus {
+input:hover, textarea:hover {
+	border:1px solid rgba(56,31,86,.95);
+    background-color: rgba(56,31,86,.15); 
 }
+/*	input:focus, textarea:focus {}*/
 /* Styles the text area boxes (message field) */	
 textarea 
 {
@@ -1497,10 +1517,10 @@ textarea
 }
 /* Styles the submit hover */	
 #submit:hover {
-	opacity:0.7;
-    background-color: rgba(255,240,255,.7);
-    border: 1px solid rgba(56,31,86,.8);
-    color: rgba(56,31,86,.8);
+	opacity:0.8;
+    background-color: rgba(56,31,86,.9);
+    border: 1px solid rgba(255,240,255,.7);
+    color: rgba(255,240,255,1);
 }
 /* Styles the cancel button*/	
 #cancel {
@@ -1521,10 +1541,10 @@ textarea
 }
 /* Styles the cancel hover */
 #cancel:hover {
-	opacity:0.9;
-    background-color: rgba(255,240,255,.7);
-    border: 1px solid rgba(56,31,86,.8);
-    color: rgba(56,31,86,.8);
+	opacity:0.8;
+    background-color: rgba(56,31,86,.9);
+    border: 1px solid rgba(255,240,255,.7);
+    color: rgba(255,240,255,1);
 }
 .submit{
     position: relative;
@@ -1617,6 +1637,15 @@ position: relative;
 }
 #siteL {
 padding-bottom: 25px;
+   border-radius: 10px;
+}
+#siteLeft {
+padding-bottom: 25px;
+   border-radius: 10px 0px 0px 10px;
+}
+#siteRight {
+padding-bottom: 25px;
+   border-radius: 0px 10px 10px 0px;
 }
 #ut {
 margin-right: 10px;
@@ -1624,6 +1653,49 @@ margin-right: 10px;
 #homeVid{
 margin-right: 10px;
 }
+.RevText {
+font-size: 2.3em;
+text-shadow: 0px 0px rgba(56,31,86,.95);
+    font-family: 'Playfair Display', serif;
+   color: white;
+}
+#yelp {
+display: inline;
+    position: absolute;
+    right: 10px;
+    top:7px;
+    z-index: 999;
+}
+#yelp2 {
+display: inline;
+    position: absolute;
+    right: 30px;
+    bottom:-3420px;
+    z-index: 999;
+}
+#yelp:hover {
+border: 1.5px solid rgba(56,31,86,.6);
+     border-radius: 10px;
+     -moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+#yelp2:hover {
+border: 1.5px solid rgba(56,31,86,.6);
+     border-radius: 10px;
+     -moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+#bumpL{
+position: relative;
+   right:20px;
+}
+#bumpDown{
+position: relative;
+  top:9px;
+}
+.option{
+}
+
 
 /*MEDIA QUERIES*/
 
@@ -1663,15 +1735,49 @@ padding-right:20px;
 .ifhide{
     display: none;
 }
-#rev h2 {
-    width: 90%;
-    right:75px;
-    background-color: rgba(0,0,0,0)
+    #rev p{
+    width: 43%;
+    position: relative;
+    right: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+        margin-top: 10px;
+}
+#rev img{
+    border-radius:10px;
+     -moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+        .reviews {
+    padding-top: 60px;
+     padding-bottom: 50px;
+    float: right;
+    margin-right: 0px;
+    width: 50%;
 }
 
 }
 @media only screen and (max-width: 825px) {
-
+#bumpL{
+position: relative;
+   right:0px;
+}
+#yelp {
+    right: 50px;
+}
+    #rev p{
+    width: 90%;
+    position: relative;
+    right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#rev img{
+    border-radius:10px;
+     -moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+    margin-left: 25%;
+}
     .footer{
 padding-right: 80px;
     padding-bottom: 40px;
@@ -1679,10 +1785,6 @@ padding-right: 80px;
 }
 body {
     background-color:rgba(255,240,255,.90);
-}
-#rev h2 {
-    width: 90%;
-    right:85px
 }
     
 /* Bow Color Page Hover B/w   */
@@ -1949,11 +2051,6 @@ left:2%;
 .scroll {
     margin-left: 29%;
 }
-#rev h2 {
-    width: 100%;
-    margin-left: 70px;
-    font-size: 1.1em;
-}
 .runner{
     position: relative;
     float:none;
@@ -1999,13 +2096,26 @@ left:2%;
     position: relative;
     right:0%;
 }
-#rev h2 {
-    width: 100%;
-    margin-left: 70px;
-    font-size: 1.5em;      
+#rev p{
+    width: 90%;
+    position: relative;
+    right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
-#mygallery2 {
-    left: 3%;
+#rev img{
+    border-radius:10px;
+     -moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+    margin-left: 20%;
+}
+  .RevText {
+font-size: 1.8em;
+text-shadow: 0px 0px rgba(56,31,86,.95);
+padding-right: 150px;
+}
+#yelp{
+right:70px;
 }
 #mygallery {
 left:.2%;
@@ -2057,6 +2167,15 @@ left:-10px;
 }
 /*  Small Screen*/
 @media only screen and (max-width: 575px) {
+    .RevText {
+font-size: 1.5em;
+text-shadow: 0px 0px rgba(56,31,86,.95);
+padding-right: 210px;
+}
+ #yelp{
+right:40px;
+     top:15px;
+}
 .about .centerp2 {
     text-align: center;
     margin-bottom: -.2%;
@@ -2072,17 +2191,20 @@ left:-10px;
     display:inherit;
 }
 #rev p{
-    width: 80%;
-    margin-left: 10%
+    width: 90%;
+    position: relative;
+    right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 #rev img{
-    margin-left: 5.5%;
     border-radius:10px;
      -moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
+    margin-left: 0%;
 }
 #mygallery2 {
-    left: 2.5%;
+
     margin-top:6%;
 }
 .bowimg{
@@ -2362,5 +2484,6 @@ margin-top: -9px;
 .scroll{
 font-size: 2.0em;
 }
+
 
 }
