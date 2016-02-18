@@ -35,9 +35,16 @@
 				</div>
 			</div>
 </script>
-<link rel="shortcut icon" type="image/x-icon" href="/images/fav1.png" />
+<script>
+      $(document).foundation();
+</script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.elastislide.js"></script>
+<script type="text/javascript" src="js/gallery.js"></script>
+<link rel="shortcut icon" type="image/x-icon" href="images/fav1.png" />
 <link rel="stylesheet" href="css/foundation.css" />
-<link href="js-image-slider.css" rel="stylesheet" type="text/css" />
 <link href='https://fonts.googleapis.com/css?family=Bad+Script|Playfair+Display' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
@@ -49,7 +56,7 @@
         <h1>SPECIAL EVENT LINENS</h1>
         <div class="call2">
             <div class="panel4">
-                <a href="tel:1-800-832-8840" ><i class="fa fa-phone-square fa-2x" id="fill"></i></a>
+                 <a href="Contact.html"><i class="fa fa-phone-square fa-2x" id="fill"></i></a>
                 <a href="mailto:info@gotchaircovers.com"><i class="fa fa-envelope fa-2x" id="fill"></i></a>
                 <a href="https://www.pinterest.com/SpecialLinens/" target="_blank"><i class="fa fa-pinterest-square fa-2x" id="fill"></i></a>
                 <a href="https://www.facebook.com/Special-Event-Linens-127924383950133/" target="_blank"><i class="fa fa-facebook-square fa-2x" id="fill"></i></a>
@@ -74,26 +81,27 @@
     <div class="row">
           <div class="large-12 columns">
           <div class="panel2b">
-                <h3 id="chairh3"> Choose Your Chair Type </h3>
+                <h3 id="chairh3"> Chair Type </h3>
+              <p class="centerp1a">Fashionable design fits a variety of banquet and folding chairs.</p>    
                 <div class="row">
                     <div class="large-3 medium-3 small-6 columns">
                         <img class="picborder" src="images/Banquet_Chairs.gif"> <h5 class="bowh5" id="dark"> Banquet Chairs </h5></div>
                     <div class="large-3 medium-3 small-6 columns">
-                        <img class="picborder" src="images/XL_Chair_Covers.jpeg"> <h5 class="bowh5" id="dark"> XL Banquet Chairs</h5></div>
+                        <img class="picborder" src="images/XL_Chair_Covers.gif"> <h5 class="bowh5" id="dark"> XL Banquet Chairs</h5></div>
                     <div class="large-3 medium-3 small-6 columns">
-                        <img class="picborder" src="images/Bistro_Cafe_Chair_Covers.png" id="dark"> <h5 class="bowh5" id="dark">Bistro Chairs </h5></div>
+                        <img class="picborder" src="images/Bistro_Cafe_Chair_Covers.gif" id="dark"> <h5 class="bowh5" id="dark">Bistro Chairs </h5></div>
                     <div class="large-3 medium-3 small-6 columns"> 
-                        <img class="picborder" src="images/Folding_Chairs.png"> <h5 class="bowh5" id="dark"> Folding Chairs </h5></div>
+                        <img class="picborder" src="images/Folding_Chairs.gif"> <h5 class="bowh5" id="dark"> Folding Chairs </h5></div>
                 </div>
               
-                <div class="abouta" id="hidepics">
+                <div class="abouta">
 <!--                    <div class= "centerp"><li>Fashionable design fits a variety of banquet and folding chairs.</li></div> -->
-                    <div class= "centerp"><li>Measure Your Chair</li></div>
+                    <div class= "centerp"><li>Chair Size</li></div>
                      <span class="hideabout">Having correct sized chair covers is important to your event's success. We provide different size chair covers to fit the most popular chairs offered by hotels, banquet centers, golf courses, and other venues. Rather than using a one size fits all Universal Chair Cover approach, which usually looks sloppy, our designs are tailored to suit a specific chair so it can be used without a bow if so desired.</span>
                     
              
                     
-                      <img src="images/BanquetDiagram.jpg" id="rounded" data-large="images/BanquetDiagram.jpg" alt="Alternating Bows - Pink, Yellow, Orange." />
+                      <img src="images/BanquetDiagram5.gif" id="rounded" data-large="images/BanquetDiagram.jpg" alt="Alternating Bows - Pink, Yellow, Orange." />
                     
  <!-- s                    
                     <h3 id="hideabout">
@@ -130,11 +138,12 @@
         </div>
                <div class="row">
                     <div class="large-12 columns">
-                        <div class="panel3">
-                            <a href="mailto:info@gotchaircovers.com"><i class="fa fa-envelope fa-5x"></i></a>
-                            <a href="#"><i class="fa fa-pinterest-square fa-5x"></i></a>
-                            <a href="#"><i class="fa fa-facebook-square fa-5x"></i></a>
-                        </div>
+                      <div class="panel3" id="bumpDown2">
+            <a href="mailto:info@gotchaircovers.com"><i class="fa fa-envelope fa-3x"></i></a>
+            <a href="https://www.pinterest.com/SpecialLinens/" target="blank"><i class="fa fa-pinterest-square fa-3x"></i></a>
+            <a href="fb://profile/Special-Event-Linens-127924383950133"><i class="fa fa-facebook-square fa-3x"></i></a>
+             <a href="tel:1-800-832-8840"><i class="fa fa-phone-square fa-3x"></i></a>
+        </div>
                     </div>
                 </div>
      </div>
@@ -154,110 +163,110 @@
 <!--                                        onChange="MM_jumpMenu('parent',this,0)"-->
                                     <select name="jumpMenu" id="jumpMenu" onchange="location = this.options[this.selectedIndex].value;">
                                         <div class="option"><option>Select</option></div>
-                                        <option value="http://gotchaircovers.com/chairtypes/alhambra/alhambra.html" target="_blank">Alhambra</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/alisoviejo/aliso-viejo.html">Aliso Viejo</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/altadena/altadena.html">Altadena</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/anaheim/anaheim.html">Anaheim</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/anaheimhills/anaheim-hills.html">Anaheim Hills</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/arcadia/arcadia.html">Arcadia</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/artesia/artesia.html">Artesia</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/azusa/azusa.html">Azusa</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/balboa/balboa.html">Balboa</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/baldwinpark/baldwin-park.html">Baldwin Park</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/belair/bel-air.html">Bel-Air</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/beverlyhills/beverly-hills.html">Beverly Hills</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/brea/brea.html">Brea</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/buenapark/buena-park.html">Buena Park</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/burbank/burbank.html">Burbank</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/carson/carson.html">Carson</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/centurycity/century-city.html">Century City</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/cerritos/cerritos.html">Cerritos</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/chino/chino.html">Chino</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/chinohills/chino-hills.html">Chino Hills</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/cityofindustry/city-of-industry.html">City of Industry</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/claremont/claremont.html">Claremont</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/colton/colton.html">Colton</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/commerce/commerce.html">Commerce</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/corona/corona.html">Corona</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/coronadelmar/corona-del-mar.html">Corona Del Mar</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/costamesa/costa-mesa.html">Costa Mesa</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/cotodecaza/coto-de-caza.html">Coto De Caza</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/covina/covina.html">Covina</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/culvercity/culver-city.html">Culver City</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/cypress/cypress.html">Cypress</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/danapoint/dana-point.html">Dana Point</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/diamondbar/diamond-bar.html">Diamond Bar</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/downey/downey.html">Downey</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/elmonte/el-monte.html">El Monte</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/elsegundo/el-segundo.html">El Segundo</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/fontana/fontana.html">Fontana</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/foothillranch/foothill-ranch.html">Foothill Ranch</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/fountainvalley/fountain-valley.html">Fountain Valley</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/fullerton/fullerton.html">Fullerton</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/gardengrove/garden-grove.html">Garden Grove</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/glendale/glendale.html">Glendale</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/hermosabeach/hermosa-beach.html">Hermosa Beach</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/hollywood/hollywood.html">Hollywood</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/huntingtonbeach/huntington-beach.html">Huntington Beach</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/irvine/irvine.html">Irvine</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/lagunabeach/laguna-beach.html">Laguna Beach</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/lagunahills/laguna-hills.html">Laguna Hills</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/lagunaniguel/laguna-niguel.html">Laguna Niguel</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/lahabra/la-habra.html">La Habra</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/lakeforest/lake-forest.html">Lake Forest</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/lakewood/lakewood.html">Lakewood</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/lamirada/la-mirada.html">La Mirada</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/laverne/la-verne.html">La Verne</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/longbeach/long-beach.html">Long Beach</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/losangeles/los-angeles.html">Los Angeles</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/manhattanbeach/manhattan-beach.html">Manhattan Beach</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/marinadelrey/marina-del-rey.html">Marina Del Rey</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/missionviejo/mission-viejo.html">Mission Viejo</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/monrovia/monrovia.html">Monrovia</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/montebello/montebello.html">Montebello</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/morenovalley/moreno-valley.html">Moreno Valley</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/newportbeach/newport-beach.html">Newport Beach</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/norco/norco.html">Norco</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/norwalk/norwalk.html">Norwalk</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/ontario/ontario.html">Ontario</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/orange/orange.html">Orange</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/pacificpalisades/pacific-palisades.html">Pacific Palisades</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/palosverdes/palos-verdes.html">Palos Verdes</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/paramount/paramount.html">Paramount</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/pasadena/pasadena.html">Pasadena</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/picorivera/pico-rivera.html">Pico Rivera</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/placentia/placentia.html">Placentia</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/pomona/pomona.html">Pomona</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/ranchocucamonga/rancho-cucamonga.html">Rancho Cucamonga</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/ranchopalosverdes/rancho-palos-verdes.html">Rancho Palos Verdes</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/ranchosantamargarita/rancho-santa-margarita.html">Rancho Santa Margarita</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/redondobeach/redondo-beach.html">Redondo Beach</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/riverside/riverside.html">Riverside</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/rollinghills/rolling-hills.html">Rolling Hills</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/rosemead/rosemead.html">Rosemead</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/sanbernardino/san-bernardino.html">San Bernardino</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/sanclemente/san-clemente.html">San Clemente</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/sandimas/san-dimas.html">San Dimas</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/sangabriel/san-gabriel.html">San Gabriel</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/sanjuancapistrano/san-juan-capistrano.html">San Juan Capistrano</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/sanpedro/san-pedro.html">San Pedro</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/santaana/santa-ana.html">Santa Ana</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/santafesprings/santa-fe-springs.html">Santa Fe Springs</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/santamonica/santa-monica.html">Santa Monica</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/sealbeach/seal-beach.html">Seal Beach</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/silverado/silverado.html">Silverado</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/temecula/temecula.html">Temecula</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/torrance/torrance.html">Torrance</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/trabucocanyon/trabuco-canyon.html">Trabuco Canyon</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/tustin/tustin.html">Tustin</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/universalcity/universal-city.html">Universal City</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/upland/upland.html">Upland</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/walnut/walnut.html">Walnut</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/westcovina/west-covina.html">West Covina</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/westminster/westminster.html">Westminster</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/chairtypes.html">Westwood</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/whittier/whittier.html">Whittier</option>
-                                        <option value="http://gotchaircovers.com/chairtypes/yorbalinda/yorba-linda.html">Yorba Linda</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/alhambra/alhambra2.html">Alhambra</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/alisoviejo/aliso-veijo2.html">Aliso Viejo</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/altadena/altadena2.html">Altadena</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/anaheim/anaheim2.html">Anaheim</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/anaheimhills/anaheim-hills2.html">Anaheim Hills</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/arcadia/arcadia2.html">Arcadia</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/artesia/artesia2.html">Artesia</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/azusa/azusa2.html">Azusa</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/balboa/balboa2.html">Balboa</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/baldwinpark/baldwin-park2.html">Baldwin Park</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/belair/bel-air2.html">Bel-Air</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/beverlyhills/beverly-hills2.html">Beverly Hills</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/brea/brea2.html">Brea</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/buenapark/buena-park2.html">Buena Park</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/burbank/burbank2.html">Burbank</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/carson/carson2.html">Carson</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/centurycity/century-city2.html">Century City</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/cerritos/cerritos2.html">Cerritos</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/chino/chino2.html">Chino</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/chinohills/chino-hills2.html">Chino Hills</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/cityofindustry/city-of-industry2.html">City of Industry</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/claremont/claremont2.html">Claremont</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/colton/colton2.html">Colton</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/commerce/commerce2.html">Commerce</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/corona/corona2.html">Corona</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/coronadelmar/corona-del-mar2.html">Corona Del Mar</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/costamesa/costa-mesa2.html">Costa Mesa</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/cotodecaza/coto-de-caza2.html">Coto De Caza</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/covina/covina2.html">Covina</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/culvercity/culver-city2.html">Culver City</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/cypress/cypress2.html">Cypress</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/danapoint/dana-point2.html">Dana Point</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/diamondbar/diamond-bar2.html">Diamond Bar</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/downey/downey2.html">Downey</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/elmonte/el-monte2.html">El Monte</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/elsegundo/el-segundo2.html">El Segundo</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/fontana/fontana2.html">Fontana</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/foothillranch/foothill-ranch2.html">Foothill Ranch</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/fountainvalley/fountain-valley2.html">Fountain Valley</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/fullerton/fullerton2.html">Fullerton</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/gardengrove/garden-grove2.html">Garden Grove</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/glendale/glendale2.html">Glendale</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/hermosabeach/hermosa-beach2.html">Hermosa Beach</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/hollywood/hollywood2.html">Hollywood</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/huntingtonbeach/huntington-beach2.html">Huntington Beach</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/irvine/irvine2.html">Irvine</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/lagunabeach/laguna-beach2.html">Laguna Beach</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/lagunahills/laguna-hills2.html">Laguna Hills</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/lagunaniguel/laguna-niguel2.html">Laguna Niguel</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/lahabra/la-habra2.html">La Habra</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/lakeforest/lake-forest2.html">Lake Forest</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/lakewood/lakewood2.html">Lakewood</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/lamirada/la-mirada2.html">La Mirada</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/laverne/la-verne2.html">La Verne</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/longbeach/long-beach2.html">Long Beach</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/losangeles/los-angeles2.html">Los Angeles</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/manhattanbeach/manhattan-beach2.html">Manhattan Beach</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/marinadelrey/marina-del-rey2.html">Marina Del Rey</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/missionviejo/mission-viejo2.html">Mission Viejo</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/monrovia/monrovia2.html">Monrovia</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/montebello/montebello2.html">Montebello</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/morenovalley/moreno-valley2.html">Moreno Valley</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/newportbeach/newport-beach2.html">Newport Beach</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/norco/norco2.html">Norco</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/norwalk/norwalk2.html">Norwalk</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/ontario/ontario2.html">Ontario</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/orange/orange2.html">Orange</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/pacificpalisades/pacific-palisades2.html">Pacific Palisades</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/palosverdes/palos-verdes2.html">Palos Verdes</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/paramount/paramount2.html">Paramount</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/pasadena/pasadena2.html">Pasadena</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/picorivera/pico-rivera2.html">Pico Rivera</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/placentia/placentia2.html">Placentia</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/pomona/pomona2.html">Pomona</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/ranchocucamonga/rancho-cucamonga2.html">Rancho Cucamonga</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/ranchopalosverdes/rancho-palos-verdes2.html">Rancho Palos Verdes</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/ranchosantamargarita/rancho-santa-margarita2.html">Rancho Santa Margarita</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/redondobeach/redondo-beach2.html">Redondo Beach</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/riverside/riverside2.html">Riverside</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/rollinghills/rolling-hills2.html">Rolling Hills</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/rosemead/rosemead2.html">Rosemead</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/sanbernardino/san-bernardino2.html">San Bernardino</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/sanclemente/san-clemente2.html">San Clemente</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/sandimas/san-dimas2.html">San Dimas</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/sangabriel/san-gabriel2.html">San Gabriel</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/sanjuancapistrano/san-juan-capistrano2.html">San Juan Capistrano</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/sanpedro/san-pedro2.html">San Pedro</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/santaana/santa-ana2.html">Santa Ana</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/santafesprings/santa-fe-springs2.html">Santa Fe Springs</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/santamonica/santa-monica2.html">Santa Monica</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/sealbeach/seal-beach2.html">Seal Beach</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/silverado/silverado2.html">Silverado</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/temecula/temecula2.html">Temecula</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/torrance/torrance2.html">Torrance</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/trabucocanyon/trabuco-canyon2.html">Trabuco Canyon</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/tustin/tustin2.html">Tustin</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/universalcity/universal-city2.html">Universal City</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/upland/upland2.html">Upland</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/walnut/walnut2.html">Walnut</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/westcovina/west-covina2.html">West Covina</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/westminster/westminster2.html">Westminster</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/chairtypes2.html">Westwood</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/whittier/whittier2.html">Whittier</option>
+                                        <option value="http://gotchaircovers.com/chairtypes/yorbalinda/yorba-linda2.html">Yorba Linda</option>
                                     </select>
                                     </form>
                                 </TD>
@@ -291,13 +300,13 @@
 
     <div class="row">
         <div class="large-12 columns">
-            <ul class="footerbow" id="up" id="footdownm">
+            <ul class="footerbow" id="footdown2">
                 <a href="index.html"><li>Home</li></a>
-                 <a href="/BowColors.html"><li>Bow Color</li></a>
-                <a href="/ChairTypes.html"><li>Chair Type</li></a>
+                 <a href="BowColors.html"><li>Bow Color</li></a>
+                <a href="ChairTypes.html"><li>Chair Type</li></a>
                 <a href="Contact.html"><li>Contact</li></a>
                 <div class="panel4" id="socialfoot2">
-                    <a href="tel:813-394-7500"><i class="fa fa-phone-square fa-2x" id="fill"></i></a>
+                    <a href="Contact.html"><i class="fa fa-phone-square fa-2x" id="fill"></i></a>
                     <a href="mailto:info@gotchaircovers.com"><i class="fa fa-envelope fa-2x" id="fill"></i></a>
                     <a href="https://www.pinterest.com/SpecialLinens/" target="_blank"><i class="fa fa-pinterest-square fa-2x" id="fill"></i></a>
                     <a href="https://www.facebook.com/Special-Event-Linens-127924383950133/" target="_blank"><i class="fa fa-facebook-square fa-2x" id="fill"></i></a>
@@ -331,16 +340,6 @@ document.write(TodayYear);
     </div>
 </div>    
 <script type="text/javascript">
-stepcarousel.setup({
-	galleryid: 'mygallery', //id of carousel DIV
-	beltclass: 'belt', //class of inner "belt" DIV containing all the panel DIVs
-	panelclass: 'panel', //class of panel DIVs each holding content
-	autostep: {enable:true, moveby:1, pause:6000},
-	panelbehavior: {speed:500, wraparound:true, wrapbehavior:'slide', persist:true},
-	defaultbuttons: {enable: true, moveby: 1, leftnav: ['../../../images/leftprev.gif', -15, 24], rightnav: ['../../../images/rightnav.gif', -0, 24]},
-	statusvars: ['statusA', 'statusB', 'statusC'], //register 3 variables that contain current panel (start), current panel (last), and total panels
-	contenttype: ['inline'] //content setting ['inline'] or ['ajax', 'path_to_external_file']
-})
 </script>
        <!-- New Google Analytics -->
 <script>
@@ -351,19 +350,5 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-4724013-4', 'auto');
 ga('send', 'pageview');
 </script>
-    <!-- End New Google Analytics -->
-<script src="js/vendor/modernizr.js"></script>
-<script src="js/vendor/jquery.js"></script>
-<script src="js/foundation.min.js"></script>
-<script>
-      $(document).foundation();
-</script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
-<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="js/jquery.elastislide.js"></script>
-<script type="text/javascript" src="js/gallery.js"></script>
-<script src="js-image-slider.js" type="text/javascript"></script>
-<script src="js/vendor/modernizr.js"></script>
  </body>
  </html>

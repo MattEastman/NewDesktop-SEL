@@ -16,7 +16,6 @@ p.sub{
 .rg-image-wrapper{
 	position:relative;
 	padding:0px 30px;
-/*	background:transparent url(../images/black.png) repeat top left;*/
     background-color: rgba(56,31,86,.50);
 /*      background-color: rgba(255,250,255,.29);*/
 	-moz-border-radius: 10px;
@@ -195,7 +194,7 @@ display: none;
 /*  End Photoslider CSS*/
 
 body {
-    background:url(/images/backg3.png) center center fixed no-repeat;
+    background:url(../images/backg3.png) center center fixed no-repeat;
     -moz-background-size: contain;
     background-size: contain;
     background-size: cover;
@@ -352,6 +351,7 @@ h5 {
      text-shadow: 2px 1px rgba(56,31,86,0);
     font-weight: 600;
     z-index: 99;
+    color:rgba(56,31,86.9);
 }
 .email a h4:hover {
     color: rgba(255,250,255,.99);
@@ -387,6 +387,7 @@ h5 {
     -moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
     padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 .panel2b h3 {
     font-size: 1.9em;
@@ -509,7 +510,7 @@ color:rgba(56,31,86,.65);
     padding-top: .3%;
     padding-bottom: .3%;
     font-family: 'bad script', cursive;
-    font-size: 1.1em;
+    font-size: 1.3em;
     letter-spacing: 1.9px;
     font-weight:600;
 }
@@ -610,8 +611,9 @@ color:rgba(56,31,86,.65);
 .about {
     display: inline;
     float: left;
-    margin-left: 0%;
-    margin-top: 1%;
+    margin-left: -1%;
+    margin-top: .5%;
+    margin-bottom: 2.5%;
     background-color: rgba(255,245,255,.60);
     padding-top: 1%;
     padding-left: 1.1%;
@@ -630,9 +632,9 @@ color:rgba(56,31,86,.65);
     width: 100%;
     margin-left: 0%;
     margin-top: -16px;
-     margin-bottom: 12px;
+     margin-bottom: 20px;
     background-color: rgba(255,245,255,.60);
-    padding-top: 1%;
+    padding-top: 1.5%;
     padding-left: 1.1%;
     border-radius: 10px;
     -moz-border-radius: 10px;
@@ -654,7 +656,8 @@ padding: 25px;
     float: left;
     width: 100%;
     margin-left: 0%;
-    margin-top: 1%;
+    margin-top: 1.7%;
+    margin-top: 1.7%;
     background-color: rgba(255,245,255,.60);
     padding-top: 1%;
     padding-bottom: -2%;
@@ -706,8 +709,8 @@ position: relative;
     margin-bottom: -1.7%;
     color: rgba(56,31,86,.95);
     font-family: 'bad script', cursive;
-    letter-spacing: 1.7px;
-    font-weight:700;
+    letter-spacing: .5px;
+    font-weight:800;
 }
 #zfront{
 z-index:1;
@@ -755,13 +758,9 @@ z-index:1;
 /*    font-family: 'bad script', cursive;*/
        font-family: 'Playfair Display', serif;
     padding-bottom: 20px;
-    font-size: 2.5em;
     border: 1px solid rgba(0,0,0,0); 
       background-color: rgba(0,0,0,0);
-    
-
-    
-      font-size: 2.1em;
+      font-size: 2.4em;
     text-align: center;
     color: #381f56;
     font-family: 'bad script', cursive;
@@ -769,7 +768,7 @@ z-index:1;
     margin-top: -10px;
     position: relative;
     right: 15px;
-    
+    font-weight: 500;    
 }
 .centerp2 li {
     display: block;
@@ -814,6 +813,8 @@ z-index:1;
     font-family: 'Playfair Display', serif;
     margin-bottom:2.5%;
     margin-top:-1.2%;
+    position: relative;
+    top: -35px;
 }
 .footerbow li{
     display: inline;
@@ -822,7 +823,7 @@ z-index:1;
     margin-left: 10px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 4px;
+/*    padding-bottom: 4px;*/
     padding-top: 4px;
     text-align: center;
     color: rgba(255,250,255,.99);
@@ -1046,318 +1047,318 @@ a h4:hover {
 
 /*  Bow color Page Black/White Hover  */
 #hiddenRP:hover{
-   background-image: url(/images/Regal_Purple_Organza_Bow_Black.png);
+   background-image: url(../images/Regal_Purple_Organza_Bow_Black.png);
       background-repeat: no-repeat;
 }
 #hiddenEgg:hover{
- background-image: url(/images/Eggplant_Organza_Bow_Black.png);
+ background-image: url(../images/Eggplant_Organza_Bow_Black.png);
       background-repeat: no-repeat;
 }
 #hiddenP:hover{
- background-image: url(/images/Peach_Organza_Bow_Black.png);
+ background-image: url(../images/Peach_Organza_Bow_Black.png);
       background-repeat: no-repeat;
 }
 #hiddenRPi:hover{
- background-image: url(/images/RosePink_Organza_Bow_Black.png);
+ background-image: url(../images/RosePink_Organza_Bow_Black.png);
       background-repeat: no-repeat;
 }
 #hiddenDR:hover{
- background-image: url(/images/Dusty_Rose_Black.png);
+ background-image: url(../images/Dusty_Rose_Black.png);
       background-repeat: no-repeat;
 }
 #hiddenHP:hover{
- background-image: url(/images/Hot_Pink_Organza_Bow_Black.png);
+ background-image: url(../images/Hot_Pink_Organza_Bow_Black.png);
       background-repeat: no-repeat;
 }
 #hiddenR:hover{
-background-image: url(/images/Red_Organza_Bow_BlackChair.png);
+background-image: url(../images/Red_Organza_Bow_BlackChair.png);
       background-repeat: no-repeat;
 }
 #hiddenCR:hover{
-background-image: url(/images/Candy_Apple_Red_Organza_Bow_Black.png);
+background-image: url(../images/Candy_Apple_Red_Organza_Bow_Black.png);
       background-repeat: no-repeat;
 }
 #hiddenO:hover{
-background-image: url(/images/Orange_Organza_Bow_Black.png);
+background-image: url(../images/Orange_Organza_Bow_Black.png);
       background-repeat: no-repeat;
 }
 #hiddenCB:hover{
-background-image: url(/images/Chocoloate_Brown_Organza_Bows_Black.png);
+background-image: url(../images/Chocoloate_Brown_Organza_Bows_Black.png);
       background-repeat: no-repeat;    
 }
 #hiddenTB:hover{
-background-image: url(/images/Tiffany_Blue_Organza_Bow_Black.png);
+background-image: url(../images/Tiffany_Blue_Organza_Bow_Black.png);
       background-repeat: no-repeat;  
 }
 #hiddenRB2:hover{
-background-image: url(/images/Royal_Blue_Organza_Bow_Black.png);
+background-image: url(../images/Royal_Blue_Organza_Bow_Black.png);
       background-repeat: no-repeat;  
 }
 #hiddenTU:hover{
-background-image: url(/images/Touruise_Organza_Bow_Black.png);
+background-image: url(../images/Touruise_Organza_Bow_Black.png);
       background-repeat: no-repeat;  
 }
 #hiddenNB:hover{
-background-image: url(/images/Navy_Blue_Organza_Bow_black.png);
+background-image: url(../images/Navy_Blue_Organza_Bow_black.png);
       background-repeat: no-repeat;  
 }
 #hiddenY:hover{
-background-image: url(/images/Yellow_Organza_Bow_Black.png);
+background-image: url(../images/Yellow_Organza_Bow_Black.png);
       background-repeat: no-repeat;  
 }
 #hiddenYG:hover{
-background-image: url(/images/Yellow_Gold_Organza_Bow_Black.png);
+background-image: url(../images/Yellow_Gold_Organza_Bow_Black.png);
       background-repeat: no-repeat;  
 }
 #hiddenG:hover{
-background-image: url(/images/Gold_Organza_Bow_Black.png);
+background-image: url(../images/Gold_Organza_Bow_Black.png);
       background-repeat: no-repeat;  
 }
 #hiddenS:hover{
-background-image: url(/images/Silver_Organza_Bow_Black.png);
+background-image: url(../images/Silver_Organza_Bow_Black.png);
       background-repeat: no-repeat;  
 }
 #hiddenC:hover{
-background-image: url(/images/Copper_Organza_Bow_Black.png);
+background-image: url(../images/Copper_Organza_Bow_Black.png);
       background-repeat: no-repeat;  
 }
 #hiddenL:hover{
-background-image: url(/images/Lavender_Organza_Bow_Black.png);
+background-image: url(../images/Lavender_Organza_Bow_Black.png);
       background-repeat: no-repeat;  
 }
 #hiddenRAS:hover{
-background-image: url(/images/Rasberry_Organza_bow_Black.png);
+background-image: url(../images/Rasberry_Organza_bow_Black.png);
       background-repeat: no-repeat;  
 }
 #hiddenSG:hover{
-background-image: url(/images/Sage_Green_Organza_Bow_Black.png);
+background-image: url(../images/Sage_Green_Organza_Bow_Black.png);
       background-repeat: no-repeat;  
 }
 #hiddenSKY:hover{
-background-image: url(/images/Sky_Blue_Organza_Bow_Black.png);
+background-image: url(../images/Sky_Blue_Organza_Bow_Black.png);
       background-repeat: no-repeat;  
 }
 #hiddenI:hover{
-background-image: url(/images/Ivory_Organza_Bow_Black.png);
+background-image: url(../images/Ivory_Organza_Bow_Black.png);
       background-repeat: no-repeat;  
 }
 #hiddenW:hover{
-background-image: url(/images/white_Organza_Bow_Black.png);
+background-image: url(../images/white_Organza_Bow_Black.png);
       background-repeat: no-repeat;  
 }
 #hiddenB:hover{
-background-image: url(/images/Black_Organza_Bow_Black.png);
+background-image: url(../images/Black_Organza_Bow_Black.png);
       background-repeat: no-repeat;  
 }
 #hiddenBW:hover{
-background-image: url(/images/Black_Chair_Cover.png);
+background-image: url(../images/Black_Chair_Cover.png);
       background-repeat: no-repeat;  
 }
 #hiddenBB:hover{
-background-image: url(/images/Black_Chair_Cover.png);
+background-image: url(../images/Black_Chair_Cover.png);
       background-repeat: no-repeat;  
 }
 #hiddenBUR:hover{
-background-image: url(/images/Burgundy_Organza_Bows_black.png);
+background-image: url(../images/Burgundy_Organza_Bows_black.png);
       background-repeat: no-repeat;  
 }
 #hiddenWINE:hover{
-background-image: url(/images/Wine_Burgundy_Organza_Bow_Black.png);
+background-image: url(../images/Wine_Burgundy_Organza_Bow_Black.png);
       background-repeat: no-repeat;  
 }
 /*Bow Color Page Black/White Hover Done */
 /* Bow color Background starts*/
 #eggBack{
-background:url(/images/Egg_Back.png) center center fixed no-repeat;
+background:url(../images/Egg_Back.jpg) center center fixed no-repeat;
       -moz-background-size: contain;
     background-size: contain;
     background-size: cover;
     background-size: cover;
 }
 #RegalPurple{
-background:url(/images/RegalBack.jpg) center center fixed no-repeat;
+background:url(../images/RegalBack.jpg) center center fixed no-repeat;
       -moz-background-size: contain;
     background-size: contain;
     background-size: cover;
     background-size: cover;
 }
 #o{
-background:url(/images/OrangeBack.jpg) center center fixed no-repeat;
+background:url(../images/OrangeBack.jpg) center center fixed no-repeat;
       -moz-background-size: contain;
     background-size: contain;
     background-size: cover;
     background-size: cover;
 }
 #lavBack{
-background:url(/images/Lav_Back.png) center center fixed no-repeat;
+background:url(../images/Lav_Back.png) center center fixed no-repeat;
       -moz-background-size: contain;
     background-size: contain;
     background-size: cover;
     background-size: cover;
 }
 #peachBack{
-background:url(/images/Peach_back.gif) center center fixed no-repeat;
+background:url(../images/Peach_back.gif) center center fixed no-repeat;
       -moz-background-size: contain;
     background-size: contain;
     background-size: cover;
     background-size: cover;
 }
 #RosePinkBack{
-background:url(/images/Rose_Pink_back.gif) center center fixed no-repeat;
+background:url(../images/Rose_Pink_back.gif) center center fixed no-repeat;
       -moz-background-size: contain;
     background-size: contain;
     background-size: cover;
     background-size: cover;
 }
 #HotPink_Back{
-background:url(/images/Hot_Pink_Back.png) center center fixed no-repeat;
+background:url(../images/Hot_Pink_Back.jpg) center center fixed no-repeat;
       -moz-background-size: contain;
     background-size: contain;
     background-size: cover;
     background-size: cover;
 }
 #RasberryBack{
-background:url(/images/Rasberry_Back.jpg) center center fixed no-repeat;
+background:url(../images/Rasberry_Back.jpg) center center fixed no-repeat;
       -moz-background-size: contain;
     background-size: contain;
     background-size: cover;
     background-size: cover;
 }
 #RedBack{
-background:url(/images/RedBack.jpg) center center fixed no-repeat;
+background:url(../images/RedBack.jpg) center center fixed no-repeat;
       -moz-background-size: contain;
     background-size: contain;
     background-size: cover;
     background-size: cover;
 }
 #CandyRed{
-background:url(/images/CandyBack.jpg) center center fixed no-repeat;
+background:url(../images/CandyBack.jpg) center center fixed no-repeat;
       -moz-background-size: contain;
     background-size: contain;
     background-size: cover;
     background-size: cover;
 }
 #BurBack{
-background:url(/images/BurgundyBack.jpg) center center fixed no-repeat;
+background:url(../images/BurgundyBack.jpg) center center fixed no-repeat;
       -moz-background-size: contain;
     background-size: contain;
     background-size: cover;
     background-size: cover;
 }
 #WineBack{
-background:url(/images/WineBack.jpg) center center fixed no-repeat;
+background:url(../images/WineBack.jpg) center center fixed no-repeat;
       -moz-background-size: contain;
     background-size: contain;
     background-size: cover;
     background-size: cover;
 }
 #CopperBack{
-background:url(/images/CopperBck.jpg) center center fixed no-repeat;
+background:url(../images/CopperBck.jpg) center center fixed no-repeat;
       -moz-background-size: contain;
     background-size: contain;
     background-size: cover;
     background-size: cover;
 }
 #Cback{
-background:url(/images/CBbackk.jpg) center center fixed no-repeat;
+background:url(../images/CBbackk.jpg) center center fixed no-repeat;
       -moz-background-size: contain;
     background-size: contain;
     background-size: cover;
     background-size: cover;
 }
 #SageBack{
-background:url(/images/SageBack.jpg) center center fixed no-repeat;
+background:url(../images/SageBack.jpg) center center fixed no-repeat;
       -moz-background-size: contain;
     background-size: contain;
     background-size: cover;
     background-size: cover;
 }
 #TiffBack{
-background:url(/images/TiffBack.jpg) center center fixed no-repeat;
+background:url(../images/TiffBack.jpg) center center fixed no-repeat;
       -moz-background-size: contain;
     background-size: contain;
     background-size: cover;
     background-size: cover;
 }
 #SkyBack{
-background:url(/images/SkyBack.jpg) center center fixed no-repeat;
+background:url(../images/SkyBack.jpg) center center fixed no-repeat;
       -moz-background-size: contain;
     background-size: contain;
     background-size: cover;
     background-size: cover;
 }
 #RoyalBack{
-background:url(/images/RoyalBack.jpg) center center fixed no-repeat;
+background:url(../images/RoyalBack.jpg) center center fixed no-repeat;
       -moz-background-size: contain;
     background-size: contain;
     background-size: cover;
     background-size: cover;
 }
 #TurBack{
-background:url(/images/TurBack.jpg) center center fixed no-repeat;
+background:url(../images/TurBack.jpg) center center fixed no-repeat;
       -moz-background-size: contain;
     background-size: contain;
     background-size: cover;
     background-size: cover;
 }
 #NavyBack{
-background:url(/images/NavyBack.jpg) center center fixed no-repeat;
+background:url(../images/NavyBack.jpg) center center fixed no-repeat;
       -moz-background-size: contain;
     background-size: contain;
     background-size: cover;
     background-size: cover;
 }
 #YellowBack{
-background:url(/images/YellowBack.jpg) center center fixed no-repeat;
+background:url(../images/YellowBack.jpg) center center fixed no-repeat;
       -moz-background-size: contain;
     background-size: contain;
     background-size: cover;
     background-size: cover;
 }
 #YGBack{
-background:url(/images/YGBack.jpg) center center fixed no-repeat;
+background:url(../images/YGBack.jpg) center center fixed no-repeat;
       -moz-background-size: contain;
     background-size: contain;
     background-size: cover;
     background-size: cover;
 }
 #SBack{
-background:url(/images/SBack.jpg) center center fixed no-repeat;
+background:url(../images/SBack.jpg) center center fixed no-repeat;
       -moz-background-size: contain;
     background-size: contain;
     background-size: cover;
     background-size: cover;
 }
 #IBack{
-background:url(/images/IBack.jpg) center center fixed no-repeat;
+background:url(../images/IBack.jpg) center center fixed no-repeat;
       -moz-background-size: contain;
     background-size: contain;
     background-size: cover;
     background-size: cover;
 }
 #WBack{
-background:url(/images/White_BackN.jpg) center center fixed no-repeat;
+background:url(../images/White_BackN.jpg) center center fixed no-repeat;
       -moz-background-size: contain;
     background-size: contain;
     background-size: cover;
     background-size: cover;
 }
 #BBack{
-background:url(/images/BlackBack.jpg) center center fixed no-repeat;
+background:url(../images/BlackBack.jpg) center center fixed no-repeat;
       -moz-background-size: contain;
     background-size: contain;
     background-size: cover;
     background-size: cover;
 }
 #GoldBack {
-background:url(/images/GoldBack.jpg) center center fixed no-repeat;
+background:url(../images/GoldBack.jpg) center center fixed no-repeat;
       -moz-background-size: contain;
     background-size: contain;
     background-size: cover;
     background-size: cover;
 }
 #DustyRose {
-background:url(/images/DustyBack.jpg) center center fixed no-repeat;
+background:url(../images/DustyBack.jpg) center center fixed no-repeat;
       -moz-background-size: contain;
     background-size: contain;
     background-size: cover;
@@ -1365,7 +1366,7 @@ background:url(/images/DustyBack.jpg) center center fixed no-repeat;
 }
 
 #NoBowBack {
-background:url(/images/NoBowBack.jpg) center center fixed no-repeat;
+background:url(../images/NoBowBack.jpg) center center fixed no-repeat;
       -moz-background-size: contain;
     background-size: contain;
     background-size: cover;
@@ -1405,7 +1406,7 @@ margin-left: 1.4%;
     text-align: center;
 }
 .panel9 table{
-    margin-top: 3%;
+    margin-top: 3.7%;
     margin-left: 1.5%;
     margin-bottom: -1%;
     background-color:rgba(255,240,255,.60);
@@ -1473,7 +1474,7 @@ padding-top: 10px;
 #socialfoot{
     float: right;
     position: absolute;
-    bottom: 20px;
+    bottom: -3px;
     right:-55px;
 }
 #socialfoot2{
@@ -1628,6 +1629,7 @@ background-color: rgba(255,240,255,.7);
 	-webkit-border-radius: 10px;
     padding: 10px;
     margin: 15px;
+    margin-top: 28px;
     margin-left: 0px;   
     margin-right: 0px;   
 }
@@ -1653,7 +1655,7 @@ padding-bottom: 5px;
     width: 90%;
 }
 #fill4{
-background-color: rgba(255,240,255,.8);
+background-color: rgba(255,240,255,.5);
 padding-bottom: 5px;
     border-radius: 10px;
      -moz-border-radius: 10px;
@@ -1662,8 +1664,7 @@ padding-bottom: 5px;
     color: rgba(56,31,86,1);
 }
 #fill4:hover{
-background-color:rgba(56,31,86,.5);
-    color: rgba(255,240,255,.9);
+background-color: rgba(255,240,255,.7);
 }
 #fill5{
 background-color: rgba(56,31,86,.4);
@@ -1685,7 +1686,10 @@ color: rgba(56,31,86,1);
     margin-top: 0px;
 }
 #footdown2{
-    margin-top: 11px;
+    margin-top: 16px;
+}
+#footdown3{
+    margin-top: 40px;
 }
 #up{
 position: relative;
@@ -1701,7 +1705,7 @@ position: relative;
     right: 19px;
 }
 #rounded{
-    margin-left: 23px;
+    margin-left: 43px;
     margin-bottom:15px;
     margin-top: 10px;
     border-radius: 10px;
@@ -1712,10 +1716,6 @@ position: relative;
 position: relative;
     bottom: 12px;
 
-}
-#down{
-position: relative;
-    bottom: -10px;
 }
 #siteL {
 padding-bottom: 25px;
@@ -1781,7 +1781,13 @@ top:5px;
 position: relative;
   top:9px;
 }
-
+#down{
+position: relative;
+    bottom: -10px;
+}
+#down2{
+   padding-top: 34px;
+}
 .option{
 }
 #selector {
@@ -1813,18 +1819,22 @@ opacity: .5;
 #selectorW{
 max-width: 970px;
 }
-
+.yelpbox{
+height: 565px;
+    border: none;
+    padding-bottom: 20px;
+}
 /*MEDIA QUERIES*/
 
 @media only screen and (max-width: 1023px) {
 #rounded{
-    margin-left: 5.5%;
+    margin-left: 4.7%;
     margin-bottom:15px;
     margin-top: 10px;
     border-radius: 10px;
     -moz-border-radius:10px;
 	-webkit-border-radius:10px;
-    max-width: 790px;
+    max-width: 90%;
 }
 #selector {
 width: 72px;
@@ -1902,7 +1912,7 @@ display: none;
 width: 79px;
 }
     #rounded{
-     max-width: 740px;
+    max-width: 90%;
     } 
 }
 @media only screen and (max-width: 946px) {
@@ -1918,7 +1928,7 @@ width: 65px;
     border-radius: 10px;
     -moz-border-radius:10px;
 	-webkit-border-radius:10px;
-    max-width: 680px;
+     max-width: 90%;
 }
     #selector {
 width: 62px;
@@ -1954,7 +1964,12 @@ padding-right: 80px;
     padding-top: 7px;
 }
 body {
-    background-color:rgba(255,240,255,.90);
+      background:url(../images/0) center center fixed no-repeat;
+    -moz-background-size: contain;
+    background-size: contain;
+    background-size: cover;
+    background-size: cover;
+       background-color:rgba(56,31,86,.9);
 }
     
 /* Bow Color Page Hover B/w   */
@@ -1971,7 +1986,7 @@ body {
 
 /*  Bow color Page Black/White Hover  */
 #hiddenRB:hover,#hiddenEgg:hover,#hiddenP:hover,#hiddenRP:hover,#hiddenDR:hover,#hiddenHP:hover,#hiddenR:hover,#hiddenCR:hover,#hiddenO:hover, #hiddenCB:hover,#hiddenTB:hover,#hiddenRB2:hover,#hiddenTU:hover, #hiddenY:hover, #hiddenYG:hover,#hiddenG:hover,#hiddenS:hover,#hiddenC:hover,#hiddenL:hover,#hiddenRAS:hover,#hiddenSG:hover,#hiddenI:hover,#hiddenW:hover,#hiddenB:hover,#hiddenBW:hover,#hiddenBB:hover,#hiddenSKY:hover,#hiddenNB:hover,#hiddenRPi:hover,#hiddenBUR:hover,#hiddenWINE:hover {
-   background-image: url(/images/black.gif);
+   background-image: url(../images/black.gif);
 }
     
 .about {
@@ -1987,6 +2002,7 @@ h1{
     margin-left: 2%;
     margin-bottom: -1.8%;
    text-shadow: 1px 1px rgba(255,240,255,0);
+        color:rgba(255,240,255,.9);
 }
 h5{
    display: block;
@@ -2010,10 +2026,14 @@ h5{
 .call2 h2 {
    position: relative;
      bottom:10px;
+    color:rgba(255,240,255,.9);
 }
  .call2 h4 {
     display: inline;
      bottom:27px;
+}
+.email a h4{
+color:rgba(255,240,255,.9);
 }
 .panel4{
         position: relative;
@@ -2026,7 +2046,8 @@ h5{
 .nav li {
     padding-left: 12px;
     padding-right: 12px;
-    background-color: rgba(56,31,86,.4);
+    background-color: rgba(255,240,255,.6);
+    color:rgba(56,31,86,.85);
 }
 .nav {
     margin-bottom: -1.6%;
@@ -2054,8 +2075,8 @@ li{
     background-color: rgba(56,31,86,.5);  
 }    
 li:hover {
-    color: rgba(255,250,255,.99);
-    background-color: rgba(56,31,86,.5);
+    color: rgba(56,31,86,.9);
+    background-color: rgba(255,240,255,.8);
     border: solid 1px rgba(56,31,86,.85);
 }
 .row {
@@ -2074,9 +2095,6 @@ li:hover {
     font-size: 2.0em;
     text-align: center;
 }
-h1 {
-    color: rgba(56,31,86,.95);
-}
 .panel2 .centerp1 {
     color: rgba(56,31,86,.95);
     padding-bottom: 1%;
@@ -2088,9 +2106,6 @@ h1 {
     font-size: 2.0em;
     text-align: center;
 }
-h1 {
-    color: rgba(56,31,86,.95);
-}
 .panel2a .centerp1 {
     color: rgba(56,31,86,.95);
     padding-bottom: 1%;
@@ -2101,9 +2116,6 @@ h1 {
 .panel2b h3 {
     font-size: 2.0em;
     text-align: center;
-}
-h1 {
-color: rgba(56,31,86,.95);
 }        
 .panel2b .centerp1 {
     color: rgba(56,31,86,.95);
@@ -2121,7 +2133,7 @@ color: rgba(56,31,86,.95);
     background-color: rgba(56,31,86,.85);    
 }
 .footer li:hover {
-    background-color: rgba(56,31,86,.50);
+    background-color: rgba(255,245,255,.90);
 }  
 .footerbow li {
     display: inline-block;
@@ -2129,15 +2141,17 @@ color: rgba(56,31,86,.95);
     margin-top: 10px;
     margin-bottom: 10px;
     padding-top: 10px;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
    min-width: 100%;
     font-size: 1.6em;
     font-family: 'Playfair Display', serif;
-    background-color: rgba(56,31,86,.85);  
+    background-color: rgba(255,245,255,.50);
+    color: rgba(56,31,86,.99);
 
 }
 .footerbow li:hover {
-    background-color: rgba(56,31,86,.50);
+    background-color: rgba(255,245,255,.50);
+    background-color: rgba(255,245,255,.70);
 }  
 .stepcarousel{
     position: relative; /*leave this value alone*/
@@ -2179,6 +2193,7 @@ left:2%;
     padding-top: 10px;
     left: 33%;
     right:33%;
+    color:rgba(255,245,255,.9);
 }
 .copyw2{
     text-align: center;
@@ -2214,24 +2229,37 @@ left:2%;
 }
 @media only screen and (max-width: 780px) {
 
-#o, #eggBack, #lavBack, #peachBack, #RosePinkBack, #HotPink_Back, #RasberryBack, #RedBack,#CandyRed,#BurBack, #WineBack, #CopperBack, #Cback, #TiffBack, #SageBack, #SkyBack, #RoyalBack, #TurBack, #NavyBack, #YellowBack, #YGBack, #SBack, #IBack,#WBack, #BBack{
-    background:url(/images/backg3.png) center center fixed no-repeat;
+#o,#RegalPurple,#GoldBack,#NoBowBack, #eggBack, #lavBack, #peachBack, #RosePinkBack, #HotPink_Back, #RasberryBack, #RedBack,#CandyRed,#BurBack, #WineBack, #CopperBack, #Cback, #TiffBack, #SageBack, #SkyBack, #RoyalBack, #TurBack, #NavyBack, #YellowBack, #YGBack, #SBack, #IBack,#WBack, #BBack{
+     background:url(../images/0) center center fixed no-repeat;
     -moz-background-size: contain;
     background-size: contain;
     background-size: cover;
     background-size: cover;
+       background-color:rgba(56,31,86,.9);
+}
+.centerp1a {
+display: none;
+}
+ #bumpR{
+position: relative;
+top:0px;
+    padding-left: 7%;
 }
 #rounded{
     position: relative;
     left: -5px;
     margin-right: 0px;
     margin-bottom:15px;
-    margin-top: 10px;
     border-radius: 10px;
     -moz-border-radius:10px;
 	-webkit-border-radius:10px;
-    max-width: 670px;
+    max-width: 90%;
 }
+#round{
+  border-radius: 10px;
+    -moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}    
 #selector {
 width: 55px;
         margin-bottom: 2px;
@@ -2282,7 +2310,8 @@ max-width: 735px;
 }
 @media only screen and (max-width: 751px) {
 #rounded{
-    max-width: 630px;
+    max-width: 90%;
+        margin-top: -2%;
     
 }
 #selector {
@@ -2370,10 +2399,24 @@ left:-10px;
     top:36px;
 }
 }
+
+@media only screen and (max-width: 700px) {
+#rounded{
+ max-width: 90%;
+    margin-left: 5%;
+    margin-top: -1%
+}    
+}
+
 @media only screen and (max-width: 640px) {
 #selectorPanelBow{
     top:30px;
-    left: -4px;
+    left: -4px;    
+}
+#rounded{
+ max-width: 90%;
+    margin-left: 5%;
+    margin-top: -1%
 }
 #selector {
 width: 87px;    
@@ -2390,29 +2433,43 @@ margin-top: 30px;
     max-width: 590px;
     min-width: 590px; 
     min-height:530px;
+      margin-left: -2.5%;
+    padding-left: 0;
 }
 }
-/*  Small Screen*/
+/*  iphone 6+ */
 @media only screen and (max-width: 575px) {
 #selectorPanel .row{
  position: relative;
     top:15px;
     left: -1px;
 }
+#rounded{
+max-width: 90%;
+    margin-left: 5.5%;
+    margin-top: -5%
+}
 #selectorPanelBow{
     top:30px;
     left: 0px;
+    position: relative;
+    top:17px;
 }
 #selector img {
 width: 75px;
     min-height: 75px;
 }
 .about{
-margin-top: 30px;
+margin-top: 10px;
     max-width: 340px;
     min-width: 340px; 
     min-height:570px;
+    margin-left: 15px;
 }
+#bumpDown2{
+position: relative;
+    top:4px;
+}    
 .RevText {
 font-size: 1.5em;
 text-shadow: 0px 0px rgba(56,31,86,.95);
@@ -2434,6 +2491,9 @@ right:40px;
 }
  .about .centerp {
     font-size: 2.2em; 
+}
+.abouta{
+margin-top: 3%;
 }
 #rev h2 {
     width: 107%;
@@ -2475,10 +2535,11 @@ font-size: 0.85em;
 .panel2 h3 { 
     position: relative;
     bottom:6px;
-    font-size: 1.0em;
+    font-size: 1.8em;
+    margin-top: -17px;
 }  
 .panel2 {
-    margin-top: 12.5%;
+    margin-top: 13.0%;
     background-color: rgba(255,250,255,.80);
 }
     
@@ -2490,7 +2551,7 @@ font-size: 0.85em;
     bottom:6px;
 }
 .panel2a {
-    margin-top: 11.5%;
+    margin-top: 13%;
 /*    background-color: rgba(255,250,255,.80);*/
 }
 .panel2a .centerp1 {
@@ -2500,7 +2561,7 @@ font-size: 0.85em;
     font-size: 1.4em
 }
 .panel2b {
-    margin-top: 11.5%;
+    margin-top: 13%;
     background-color: rgba(255,250,255,.80);
 }
 .panel2b .centerp1 {
@@ -2518,7 +2579,7 @@ li {
     width: 100%;
     align-content: center;
     padding-top: 2%;
-    margin-left: 4%;  
+    margin-left: 17%;
 }
 .panel3 i{
     background-color: rgba(255,245,255,.50);
@@ -2570,7 +2631,7 @@ h1 {
     font-size: 1.0em;
     float: left;
     padding-left: 3%;
-    padding-top: 3
+    padding-top: 3;
 }
 #mygallery {
     max-height: 350px;
@@ -2631,10 +2692,7 @@ h1 {
     font-size: .8em;
 }
 #footdown{
-margin-top: 20px;
-}
-#footdownm{
-margin-top: 20px;
+margin-top: 50px;
 }
 #footup{
 margin-top: -20px;
@@ -2658,22 +2716,25 @@ margin-top: -20px;
     margin-top: 10%;
 }
 .call i{
-    color: rgba(56,31,86,1);
+    color: rgba(255,245,255,.7);
     margin-bottom: 10px;
-}   
+}
+.call i:hover{
+    color: rgba(255,245,255,1);
+    margin-bottom: 10px;
+}  
 .call {
     display: inline;
     position: absolute;
     right: 2%;
     top:1%;
-    background-color: rgba(56,31,86,.0);
     padding: -20px;
     padding-left: 0px;
     margin-right: 2%;
     border-radius: 100px;
     -moz-border-radius: 10px;
 	-webkit-border-radius: 10px;    
-    background-color: rgba(255,245,255,.80);
+    background-color: rgba(255,245,255,.0);
     border-radius: 100px;
     max-height: 60px;
     margin-right: 3%;
@@ -2684,7 +2745,7 @@ margin-top: -20px;
     font-size: 1.2em;
 }
 .panel6{
-    margin-top: 5.5%;
+    margin-top: 13%;
 }
 .babyfooter {
    margin-top: 5%;
@@ -2747,13 +2808,36 @@ font-size: 2.0em;
 position: relative;
     right:10px;
 }
+#footdown2{
+width: 90%;
+margin-left: 5%;
+     margin-top: 6%;
 }
-    @media only screen and (max-width: 350px) {
-#selectorPanel{
+#footdown3{
+width: 90%;
+margin-left: 5%;
+    margin-top: 16%;
+}
+}
+/* iphone 6 */
+@media only screen and (max-width: 390px) {   
+.about{
+margin-left: -5px;
+}
+.panel3{
+margin-left: 15%;
+}
+}
+/*iphone 5 and below */
+    @media only screen and (max-width: 350px) {   
+        #selectorPanel{
  position: relative;
-    top:5%;
+    top:2%;
     right:-4px;
     max-width: 300px;
+}
+#selectorPanelBow {
+margin-top: 40px;
 }
 #selector {
 width: 55px;
@@ -2764,15 +2848,15 @@ width: 55px;
 min-height: 55px;
     min-width: 55px;
 }
-#selectorPanel{
-margin-top: -20px;
-}
 .about{
-margin-top: 30px;
+margin-top: 4%;
     padding-bottom: 15px;
     max-width: 180px;
     min-width: 290px;
     min-height: 220px;
-    
+    margin-left: -3%;
+}
+.panel3{
+margin-left: 8%;
 }
 }

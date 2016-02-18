@@ -2,7 +2,7 @@
     $name = $_POST['name'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
-    $bowc = $-POST ['bowc'];
+    $bowc = $_POST ['bowc'];
     $datev = $_POST['datev'];
     $message = $_POST['message'];
     $from = 'From: GotChairCover.com'; 
